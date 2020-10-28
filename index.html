@@ -1,0 +1,1776 @@
+<!DOCTYPE html>
+<html lang="en-US" data-bt-theme="Oxigeno 1.1.4">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>GDG BASQUETEBOL</title>
+  <link href="css/main.css" rel="stylesheet">
+
+  <link rel='stylesheet' id='wp-block-library-css'
+        href='http://oxigeno.bold-themes.com/basketball/wp-includes/css/dist/block-library/style.min.css?ver=5.4.2'
+        type='text/css' media='all'/>
+
+  <link rel='stylesheet' id='bt_bb_content_elements-css'
+        href='http://oxigeno.bold-themes.com/basketball/wp-content/plugins/bold-page-builder/css/front_end/content_elements.crush.css?ver=5.4.2'
+        type='text/css' media='all'/>
+  <link rel='stylesheet' id='bt_bb_slick-css'
+        href='http://oxigeno.bold-themes.com/basketball/wp-content/plugins/bold-page-builder/slick/slick.css?ver=5.4.2'
+        type='text/css' media='all'/>
+
+  <link rel='stylesheet' id='oxigeno-style-css'
+        href='http://oxigeno.bold-themes.com/basketball/wp-content/themes/oxigeno/style.css?ver=5.4.2' type='text/css'
+        media='screen'/>
+
+  <style id='oxigeno-style-inline-css' type='text/css'>
+    select, input {
+      font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    }
+
+    a:hover {
+      color: #004080;
+    }
+
+    .btContent a:hover {
+      color: #004080;
+    }
+
+    .btText a {
+      color: #004080;
+    }
+
+    body {
+      font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    }
+
+    h1, h2, h3, h4, h5, h6, h7, h8 {
+      font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+    }
+
+    blockquote {
+      font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+    }
+
+    .btContentHolder table thead th {
+      background-color: #004080;
+    }
+
+    .btAccentDarkHeader .btPreloader .animation > div:first-child, .btLightAccentHeader .btPreloader .animation > div:first-child, .btTransparentLightHeader .btPreloader .animation > div:first-child {
+      background-color: #004080;
+    }
+
+    .btPreloader .animation .preloaderLogo {
+      height: 80px;
+    }
+
+    .bt_bb_background_image.btPageHeadline header h1 .bt_bb_headline_content, .bt_bb_background_image.btPageHeadline header h2 .bt_bb_headline_content, .bt_bb_background_image.btPageHeadline header h3 .bt_bb_headline_content, .bt_bb_background_image.btPageHeadline header h4 .bt_bb_headline_content, .bt_bb_background_image.btPageHeadline header h5 .bt_bb_headline_content, .bt_bb_background_image.btPageHeadline header h6 .bt_bb_headline_content, .bt_bb_background_image.btPageHeadline header h7 .bt_bb_headline_content, .bt_bb_background_image.btPageHeadline header h8 .bt_bb_headline_content {
+      color: #cc5200;
+    }
+
+    .bt_header_headline_Light_accent .bt_bb_background_image.btPageHeadline header h1 .bt_bb_headline_content, .bt_header_headline_Light_accent .bt_bb_background_image.btPageHeadline header h2 .bt_bb_headline_content, .bt_header_headline_Light_accent .bt_bb_background_image.btPageHeadline header h3 .bt_bb_headline_content, .bt_header_headline_Light_accent .bt_bb_background_image.btPageHeadline header h4 .bt_bb_headline_content, .bt_header_headline_Light_accent .bt_bb_background_image.btPageHeadline header h5 .bt_bb_headline_content, .bt_header_headline_Light_accent .bt_bb_background_image.btPageHeadline header h6 .bt_bb_headline_content, .bt_header_headline_Light_accent .bt_bb_background_image.btPageHeadline header h7 .bt_bb_headline_content, .bt_header_headline_Light_accent .bt_bb_background_image.btPageHeadline header h8 .bt_bb_headline_content {
+      color: #004080;
+    }
+
+    .bt_header_headline_Dark_accent .bt_bb_background_image.btPageHeadline header h1 .bt_bb_headline_content, .bt_header_headline_Dark_accent .bt_bb_background_image.btPageHeadline header h2 .bt_bb_headline_content, .bt_header_headline_Dark_accent .bt_bb_background_image.btPageHeadline header h3 .bt_bb_headline_content, .bt_header_headline_Dark_accent .bt_bb_background_image.btPageHeadline header h4 .bt_bb_headline_content, .bt_header_headline_Dark_accent .bt_bb_background_image.btPageHeadline header h5 .bt_bb_headline_content, .bt_header_headline_Dark_accent .bt_bb_background_image.btPageHeadline header h6 .bt_bb_headline_content, .bt_header_headline_Dark_accent .bt_bb_background_image.btPageHeadline header h7 .bt_bb_headline_content, .bt_header_headline_Dark_accent .bt_bb_background_image.btPageHeadline header h8 .bt_bb_headline_content {
+      color: #004080;
+    }
+
+    .bt_header_headline_Dark_alternate .bt_bb_background_image.btPageHeadline header h1 .bt_bb_headline_content, .bt_header_headline_Dark_alternate .bt_bb_background_image.btPageHeadline header h2 .bt_bb_headline_content, .bt_header_headline_Dark_alternate .bt_bb_background_image.btPageHeadline header h3 .bt_bb_headline_content, .bt_header_headline_Dark_alternate .bt_bb_background_image.btPageHeadline header h4 .bt_bb_headline_content, .bt_header_headline_Dark_alternate .bt_bb_background_image.btPageHeadline header h5 .bt_bb_headline_content, .bt_header_headline_Dark_alternate .bt_bb_background_image.btPageHeadline header h6 .bt_bb_headline_content, .bt_header_headline_Dark_alternate .bt_bb_background_image.btPageHeadline header h7 .bt_bb_headline_content, .bt_header_headline_Dark_alternate .bt_bb_background_image.btPageHeadline header h8 .bt_bb_headline_content {
+      color: #cc5200;
+    }
+
+    .btNoSearchResults .bt_bb_port #searchform input[type='submit'] {
+      -webkit-box-shadow: 0 0 0 3em #004080 inset;
+      box-shadow: 0 0 0 3em #004080 inset;
+    }
+
+    .btNoSearchResults .bt_bb_port #searchform input[type='submit']:hover {
+      -webkit-box-shadow: 0 0 0 1px #004080 inset;
+      box-shadow: 0 0 0 1px #004080 inset;
+      color: #004080;
+    }
+
+    .btHasCrest.btMenuHorizontal:not(.btMenuCenter):not(.btStickyHeaderActive) .btTopToolsLeft {
+      margin-left: 110px;
+    }
+
+    .rtl.btHasCrest.btMenuHorizontal:not(.btMenuCenter):not(.btStickyHeaderActive) .btTopToolsLeft {
+      margin-right: 110px;
+    }
+
+    .btHasCrest.btMenuHorizontal:not(.btMenuCenter):not(.btStickyHeaderActive) .btBelowLogoArea .menuPort {
+      margin-left: 110px;
+    }
+
+    .btHasCrest.btMenuHorizontal:not(.btMenuCenter):not(.btStickyHeaderActive) .btCrest .btCrestImg {
+      width: 110px;
+    }
+
+    .btHasCrest.btMenuHorizontal:not(.btMenuCenter):not(.btStickyHeaderActive) .logo {
+      padding-left: 110px;
+    }
+
+    .rtl.btHasCrest.btMenuHorizontal:not(.btMenuCenter):not(.btStickyHeaderActive) .logo {
+      padding-right: 110px;
+    }
+
+    .mainHeader {
+      font-family: "Montserrat";
+    }
+
+    .mainHeader a:hover {
+      color: #004080;
+    }
+
+    .menuPort {
+      font-family: "Montserrat";
+    }
+
+    .menuPort nav ul li a:hover {
+      color: #004080;
+    }
+
+    .menuPort nav > ul > li > a {
+      line-height: 80px;
+    }
+
+    .btTextLogo {
+      font-family: "Montserrat";
+      line-height: 80px;
+    }
+
+    .btLogoArea .logo img {
+      height: 80px;
+    }
+
+    .btTransparentDarkHeader .btHorizontalMenuTrigger:hover .bt_bb_icon:before, .btTransparentLightHeader .btHorizontalMenuTrigger:hover .bt_bb_icon:before, .btAccentLightHeader .btHorizontalMenuTrigger:hover .bt_bb_icon:before, .btAccentDarkHeader .btHorizontalMenuTrigger:hover .bt_bb_icon:before, .btLightDarkHeader .btHorizontalMenuTrigger:hover .bt_bb_icon:before, .btHasAltLogo.btStickyHeaderActive .btHorizontalMenuTrigger:hover .bt_bb_icon:before, .btTransparentDarkHeader .btHorizontalMenuTrigger:hover .bt_bb_icon:after, .btTransparentLightHeader .btHorizontalMenuTrigger:hover .bt_bb_icon:after, .btAccentLightHeader .btHorizontalMenuTrigger:hover .bt_bb_icon:after, .btAccentDarkHeader .btHorizontalMenuTrigger:hover .bt_bb_icon:after, .btLightDarkHeader .btHorizontalMenuTrigger:hover .bt_bb_icon:after, .btHasAltLogo.btStickyHeaderActive .btHorizontalMenuTrigger:hover .bt_bb_icon:after {
+      border-top-color: #004080;
+    }
+
+    .btTransparentDarkHeader .btHorizontalMenuTrigger:hover .bt_bb_icon .bt_bb_icon_holder:before, .btTransparentLightHeader .btHorizontalMenuTrigger:hover .bt_bb_icon .bt_bb_icon_holder:before, .btAccentLightHeader .btHorizontalMenuTrigger:hover .bt_bb_icon .bt_bb_icon_holder:before, .btAccentDarkHeader .btHorizontalMenuTrigger:hover .bt_bb_icon .bt_bb_icon_holder:before, .btLightDarkHeader .btHorizontalMenuTrigger:hover .bt_bb_icon .bt_bb_icon_holder:before, .btHasAltLogo.btStickyHeaderActive .btHorizontalMenuTrigger:hover .bt_bb_icon .bt_bb_icon_holder:before {
+      border-top-color: #004080;
+    }
+
+    .btMenuHorizontal .menuPort nav > ul > li.current-menu-ancestor, .btMenuHorizontal .menuPort nav > ul > li.current-menu-item {
+      color: #cc5200;
+    }
+
+    .btMenuHorizontal .menuPort ul ul li a:hover {
+      color: #004080;
+    }
+
+    body.btMenuHorizontal .subToggler {
+      line-height: 80px;
+    }
+
+    .btMenuHorizontal .menuPort > nav > ul > li > ul li a:hover {
+      -webkit-box-shadow: inset 5px 0 0 0 #004080;
+      box-shadow: inset 5px 0 0 0 #004080;
+    }
+
+    .btMenuHorizontal .topBarInMenu {
+      height: 80px;
+    }
+
+    .btAccentLightHeader .mainHeader, .btAccentLightHeader .btVerticalHeaderTop {
+      background-color: #004080;
+    }
+
+    .btAccentLightHeader .btBelowLogoArea a:hover, .btAccentLightHeader .topBar a:hover {
+      color: #004080;
+    }
+
+    .btAccentDarkHeader .mainHeader, .btAccentDarkHeader .btVerticalHeaderTop {
+      background-color: #004080;
+    }
+
+    .btAccentDarkHeader .btBelowLogoArea a:hover, .btAccentDarkHeader .topBar a:hover {
+      color: #cc5200;
+    }
+
+    .btAccentDarkHeader.btMenuHorizontal.btMenuBelowLogo .menuPort nav > ul > li.current-menu-ancestor, .btAccentDarkHeader.btMenuHorizontal.btMenuBelowLogo .menuPort nav > ul > li.current-menu-item {
+      color: #cc5200 !important;
+    }
+
+    .btAlternateLightHeader .mainHeader, .btAlternateLightHeader .btVerticalHeaderTop {
+      background-color: #cc5200;
+    }
+
+    .btAlternateLightHeader .btBelowLogoArea a:hover, .btAlternateLightHeader .topBar a:hover {
+      color: #004080;
+    }
+
+    .btAlternateDarkHeader .mainHeader, .btAlternateDarkHeader .btVerticalHeaderTop {
+      background-color: #cc5200;
+    }
+
+    .btAlternateDarkHeader .btBelowLogoArea a:hover, .btAlternateDarkHeader .topBar a:hover {
+      color: #cc5200;
+    }
+
+    .btLightAccentHeader .mainHeader a:hover, .btLightAccentHeader .btVerticalHeaderTop a:hover {
+      color: #004080;
+    }
+
+    .btLightAccentHeader .btBelowLogoArea, .btLightAccentHeader .topBar {
+      background-color: #004080;
+    }
+
+    .btTransparentDarkHeader .btVerticalMenuTrigger:hover .bt_bb_icon:before, .btTransparentLightHeader .btVerticalMenuTrigger:hover .bt_bb_icon:before, .btLightAccentHeader .btVerticalMenuTrigger:hover .bt_bb_icon:before, .btAlternateLightHeader .btVerticalMenuTrigger:hover .bt_bb_icon:before, .btAlternateDarkHeader .btVerticalMenuTrigger:hover .bt_bb_icon:before, .btLightDarkHeader .btVerticalMenuTrigger:hover .bt_bb_icon:before, .btHasAltLogo.btStickyHeaderActive .btVerticalMenuTrigger:hover .bt_bb_icon:before, .btTransparentDarkHeader .btVerticalMenuTrigger:hover .bt_bb_icon:after, .btTransparentLightHeader .btVerticalMenuTrigger:hover .bt_bb_icon:after, .btLightAccentHeader .btVerticalMenuTrigger:hover .bt_bb_icon:after, .btAlternateLightHeader .btVerticalMenuTrigger:hover .bt_bb_icon:after, .btAlternateDarkHeader .btVerticalMenuTrigger:hover .bt_bb_icon:after, .btLightDarkHeader .btVerticalMenuTrigger:hover .bt_bb_icon:after, .btHasAltLogo.btStickyHeaderActive .btVerticalMenuTrigger:hover .bt_bb_icon:after {
+      border-top-color: #004080;
+    }
+
+    .btTransparentDarkHeader .btVerticalMenuTrigger:hover .bt_bb_icon .bt_bb_icon_holder:before, .btTransparentLightHeader .btVerticalMenuTrigger:hover .bt_bb_icon .bt_bb_icon_holder:before, .btLightAccentHeader .btVerticalMenuTrigger:hover .bt_bb_icon .bt_bb_icon_holder:before, .btAlternateLightHeader .btVerticalMenuTrigger:hover .bt_bb_icon .bt_bb_icon_holder:before, .btAlternateDarkHeader .btVerticalMenuTrigger:hover .bt_bb_icon .bt_bb_icon_holder:before, .btLightDarkHeader .btVerticalMenuTrigger:hover .bt_bb_icon .bt_bb_icon_holder:before, .btHasAltLogo.btStickyHeaderActive .btVerticalMenuTrigger:hover .bt_bb_icon .bt_bb_icon_holder:before {
+      border-top-color: #004080;
+    }
+
+    .btMenuVertical .mainHeader .btCloseVertical:before:hover {
+      color: #004080;
+    }
+
+    .btMenuHorizontal .topBarInLogoArea {
+      height: 80px;
+    }
+
+    .btMenuHorizontal .topBarInLogoArea .topBarInLogoAreaCell {
+      border: 0 solid #004080;
+    }
+
+    .btMenuVertical .menuPort nav:not(.rightNav):before, .btMenuVertical .menuPort nav:not(.leftNav):after {
+      background: #004080;
+    }
+
+    .btDarkSkin .btSiteFooterWidgets, .btLightSkin .btDarkSkin .btSiteFooterWidgets, .btDarkSkin.btLightSkin .btDarkSkin .btSiteFooterWidgets {
+      background: #990000;
+    }
+
+    .btDarkSkin .btSiteFooterCopyMenu .port:before, .btLightSkin .btDarkSkin .btSiteFooterCopyMenu .port:before, .btDarkSkin.btLightSkin .btDarkSkin .btSiteFooterCopyMenu .port:before {
+      background-color: #004080;
+    }
+
+    .btArticleHeadline .bt_bb_headline_content a:hover {
+      color: #004080;
+    }
+
+    .btMediaBox.btQuote:before, .btMediaBox.btLink:before {
+      background-color: #004080;
+    }
+
+    .sticky.btArticleListItem .btArticleHeadline h1 .bt_bb_headline_content span a:after, .sticky.btArticleListItem .btArticleHeadline h2 .bt_bb_headline_content span a:after, .sticky.btArticleListItem .btArticleHeadline h3 .bt_bb_headline_content span a:after, .sticky.btArticleListItem .btArticleHeadline h4 .bt_bb_headline_content span a:after, .sticky.btArticleListItem .btArticleHeadline h5 .bt_bb_headline_content span a:after, .sticky.btArticleListItem .btArticleHeadline h6 .bt_bb_headline_content span a:after, .sticky.btArticleListItem .btArticleHeadline h7 .bt_bb_headline_content span a:after, .sticky.btArticleListItem .btArticleHeadline h8 .bt_bb_headline_content span a:after {
+      color: #004080;
+    }
+
+    .btPagination {
+      font-family: "Nunito Sans";
+    }
+
+    .btPagination .paging a:hover {
+      color: #004080;
+    }
+
+    .btPagination .paging a:hover:after {
+      border-color: #004080;
+      color: #004080;
+    }
+
+    .btPrevNextNav .btPrevNext .btPrevNextItem .btPrevNextTitle {
+      font-family: "Nunito Sans";
+    }
+
+    .btPrevNextNav .btPrevNext .btPrevNextItem .btPrevNextDir {
+      font-family: "Montserrat";
+    }
+
+    .btPrevNextNav .btPrevNext:hover .btPrevNextTitle {
+      color: #004080;
+    }
+
+
+    .btSidebar .widget_bt_bb_recent_posts ul li a:hover {
+      color: #004080 !important;
+    }
+
+    body:not(.btNoDashInSidebar) .btBox > h4:after, body:not(.btNoDashInSidebar) .btCustomMenu > h4:after, body:not(.btNoDashInSidebar) .btTopBox > h4:after {
+      border-bottom: 3px solid #004080;
+    }
+
+    .btBox > ul li.current-menu-item > a, .btCustomMenu > ul li.current-menu-item > a, .btTopBox > ul li.current-menu-item > a {
+      color: #004080;
+    }
+
+    .btBox p.posted, .btBox .quantity, .btCustomMenu p.posted, .btCustomMenu .quantity, .btTopBox p.posted, .btTopBox .quantity {
+      font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    }
+
+    .widget_rss li a.rsswidget {
+      font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+    }
+
+    .fancy-select ul.options li:hover {
+      color: #004080;
+    }
+
+    .topTools .btIconWidget:hover, .topBarInMenu .btIconWidget:hover {
+      color: #004080;
+    }
+
+    .btSidebar .btIconWidget:hover .btIconWidgetText, footer .btIconWidget:hover .btIconWidgetText, .topBarInLogoArea .btIconWidget:hover .btIconWidgetText {
+      color: #004080;
+    }
+
+    .btAccentIconWidget.btIconWidget .btIconWidgetIcon {
+      color: #004080;
+    }
+
+    .btLightSkin .btSiteFooterWidgets .btSearch button:hover, .btDarkSkin .btLightSkin .btSiteFooterWidgets .btSearch button:hover, .btLightSkin .btDarkSkin .btLightSkin .btSiteFooterWidgets .btSearch button:hover, .btDarkSkin .btSiteFooterWidgets .btSearch button:hover, .btLightSkin .btDarkSkin .btSiteFooterWidgets .btSearch button:hover, .btDarkSkin.btLightSkin .btDarkSkin .btSiteFooterWidgets .btSearch button:hover, .btLightSkin .btSidebar .btSearch button:hover, .btDarkSkin .btLightSkin .btSidebar .btSearch button:hover, .btLightSkin .btDarkSkin .btLightSkin .btSidebar .btSearch button:hover, .btDarkSkin .btSidebar .btSearch button:hover, .btLightSkin .btDarkSkin .btSidebar .btSearch button:hover, .btDarkSkin.btLightSkin .btDarkSkin .btSidebar .btSearch button:hover, .btLightSkin .btSidebar .widget_product_search button:hover, .btDarkSkin .btLightSkin .btSidebar .widget_product_search button:hover, .btLightSkin .btDarkSkin .btLightSkin .btSidebar .widget_product_search button:hover, .btDarkSkin .btSidebar .widget_product_search button:hover, .btLightSkin .btDarkSkin .btSidebar .widget_product_search button:hover, .btDarkSkin.btLightSkin .btDarkSkin .btSidebar .widget_product_search button:hover {
+      background: #004080 !important;
+      border-color: #004080 !important;
+    }
+
+    .btSearchInner.btFromTopBox .btSearchInnerClose .bt_bb_icon a.bt_bb_icon_holder {
+      color: #004080;
+    }
+
+    .btSearchInner.btFromTopBox .btSearchInnerClose .bt_bb_icon:hover a.bt_bb_icon_holder {
+      color: #cc0000;
+    }
+
+    .btSearchInner.btFromTopBox button:hover:before {
+      color: #004080;
+    }
+
+    .bt_bb_headline .bt_bb_headline_superheadline {
+      font-family: "Montserrat";
+    }
+
+    .bt_bb_headline.bt_bb_subheadline .bt_bb_headline_subheadline {
+      font-family: "Libre Baskerville";
+    }
+
+    .bt_bb_dash_top.bt_bb_headline .bt_bb_headline_content:before {
+      color: #004080;
+    }
+
+
+    .bt_bb_service .bt_bb_service_content .bt_bb_service_content_title {
+      font-family: Nunito Sans;
+    }
+
+    .bt_bb_button {
+      font-family: Nunito Sans;
+    }
+
+    .bt_bb_custom_menu div ul a:hover {
+      color: #cc5200;
+    }
+
+    .bt_bb_section[class*="accent_gradient"]:before {
+      background: -webkit-linear-gradient(top, #004080 0%, rgba(255, 0, 0, 0) 25%, rgba(255, 0, 0, 0) 75%, #004080 100%);
+      background: -moz-linear-gradient(top, #004080 0%, rgba(255, 0, 0, 0) 25%, rgba(255, 0, 0, 0) 75%, #004080 100%);
+      background: linear-gradient(to bottom, #004080 0%, rgba(255, 0, 0, 0) 25%, rgba(255, 0, 0, 0) 75%, #004080 100%);
+    }
+
+    .bt_bb_section[class*="alternate_gradient"]:before {
+      background: -webkit-linear-gradient(top, #cc5200 0%, rgba(255, 127, 0, 0) 35%, rgba(255, 127, 0, 0) 65%, #cc5200 100%);
+      background: -moz-linear-gradient(top, #cc5200 0%, rgba(255, 127, 0, 0) 35%, rgba(255, 127, 0, 0) 65%, #cc5200 100%);
+      background: linear-gradient(to bottom, #cc5200 0%, rgba(255, 127, 0, 0) 35%, rgba(255, 127, 0, 0) 65%, #cc5200 100%);
+    }
+
+    .accentColorLightBg {
+      background-color: #ff3333;
+    }
+
+    .accentColorBg {
+      background-color: #004080;
+    }
+
+    .accentColorDarkBg {
+      background-color: #cc0000;
+    }
+
+    .accentColorVeryDarkBg {
+      background-color: #990000;
+    }
+
+    .accentColorVeryVeryDarkBg {
+      background-color: #660000;
+    }
+
+    .alternateColorLightBg {
+      background-color: #ff9933;
+    }
+
+    .alternateColorBg {
+      background-color: #cc5200;
+    }
+
+    .alternateColorDarkBg {
+      background-color: #cc6600;
+    }
+
+    .alternateColorVeryDarkBg {
+      background-color: #994c00;
+    }
+
+    .alternateColorVeryVeryDarkBg {
+      background-color: #4d2600;
+    }
+
+    .select2-container--default .select2-results__option--highlighted[aria-selected], .select2-container--default .select2-results__option--highlighted[data-selected] {
+      background-color: #004080;
+    }
+
+    .btLightSkin .btQuoteBooking textarea:focus, .btDarkSkin .btLightSkin .btQuoteBooking textarea:focus, .btLightSkin .btDarkSkin .btLightSkin .btQuoteBooking textarea:focus, .btLightSkin .btQuoteBooking input[type="text"]:focus, .btDarkSkin .btLightSkin .btQuoteBooking input[type="text"]:focus, .btLightSkin .btDarkSkin .btLightSkin .btQuoteBooking input[type="text"]:focus, .btLightSkin .btQuoteBooking input[type="email"]:focus, .btDarkSkin .btLightSkin .btQuoteBooking input[type="email"]:focus, .btLightSkin .btDarkSkin .btLightSkin .btQuoteBooking input[type="email"]:focus, .btLightSkin .btQuoteBooking input[type="password"]:focus, .btDarkSkin .btLightSkin .btQuoteBooking input[type="password"]:focus, .btLightSkin .btDarkSkin .btLightSkin .btQuoteBooking input[type="password"]:focus, .btLightSkin .btQuoteBooking .fancy-select .trigger:focus, .btDarkSkin .btLightSkin .btQuoteBooking .fancy-select .trigger:focus, .btLightSkin .btDarkSkin .btLightSkin .btQuoteBooking .fancy-select .trigger:focus, .btLightSkin .btQuoteBooking .ddcommon.borderRadius .ddTitleText:focus, .btDarkSkin .btLightSkin .btQuoteBooking .ddcommon.borderRadius .ddTitleText:focus, .btLightSkin .btDarkSkin .btLightSkin .btQuoteBooking .ddcommon.borderRadius .ddTitleText:focus, .btLightSkin .btQuoteBooking .ddcommon.borderRadiusTp .ddTitleText:focus, .btDarkSkin .btLightSkin .btQuoteBooking .ddcommon.borderRadiusTp .ddTitleText:focus, .btLightSkin .btDarkSkin .btLightSkin .btQuoteBooking .ddcommon.borderRadiusTp .ddTitleText:focus, .btLightSkin .btQuoteBooking .ddcommon.borderRadiusBtm .ddTitleText:focus, .btDarkSkin .btLightSkin .btQuoteBooking .ddcommon.borderRadiusBtm .ddTitleText:focus, .btLightSkin .btDarkSkin .btLightSkin .btQuoteBooking .ddcommon.borderRadiusBtm .ddTitleText:focus {
+      -webkit-box-shadow: 0 0 4px 0 #004080;
+      box-shadow: 0 0 4px 0 #004080;
+    }
+
+    .btDarkSkin .btQuoteBooking textarea:focus, .btLightSkin .btDarkSkin .btQuoteBooking textarea:focus, .btDarkSkin.btLightSkin .btDarkSkin .btQuoteBooking textarea:focus, .btDarkSkin .btQuoteBooking input[type="text"]:focus, .btLightSkin .btDarkSkin .btQuoteBooking input[type="text"]:focus, .btDarkSkin.btLightSkin .btDarkSkin .btQuoteBooking input[type="text"]:focus, .btDarkSkin .btQuoteBooking input[type="email"]:focus, .btLightSkin .btDarkSkin .btQuoteBooking input[type="email"]:focus, .btDarkSkin.btLightSkin .btDarkSkin .btQuoteBooking input[type="email"]:focus, .btDarkSkin .btQuoteBooking input[type="password"]:focus, .btLightSkin .btDarkSkin .btQuoteBooking input[type="password"]:focus, .btDarkSkin.btLightSkin .btDarkSkin .btQuoteBooking input[type="password"]:focus, .btDarkSkin .btQuoteBooking .fancy-select .trigger:focus, .btLightSkin .btDarkSkin .btQuoteBooking .fancy-select .trigger:focus, .btDarkSkin.btLightSkin .btDarkSkin .btQuoteBooking .fancy-select .trigger:focus, .btDarkSkin .btQuoteBooking .ddcommon.borderRadius .ddTitleText:focus, .btLightSkin .btDarkSkin .btQuoteBooking .ddcommon.borderRadius .ddTitleText:focus, .btDarkSkin.btLightSkin .btDarkSkin .btQuoteBooking .ddcommon.borderRadius .ddTitleText:focus, .btDarkSkin .btQuoteBooking .ddcommon.borderRadiusTp .ddTitleText:focus, .btLightSkin .btDarkSkin .btQuoteBooking .ddcommon.borderRadiusTp .ddTitleText:focus, .btDarkSkin.btLightSkin .btDarkSkin .btQuoteBooking .ddcommon.borderRadiusTp .ddTitleText:focus, .btDarkSkin .btQuoteBooking .ddcommon.borderRadiusBtm .ddTitleText:focus, .btLightSkin .btDarkSkin .btQuoteBooking .ddcommon.borderRadiusBtm .ddTitleText:focus, .btDarkSkin.btLightSkin .btDarkSkin .btQuoteBooking .ddcommon.borderRadiusBtm .ddTitleText:focus {
+      -webkit-box-shadow: 0 0 4px 0 #004080;
+      box-shadow: 0 0 4px 0 #004080;
+    }
+
+    @font-face {
+      font-family: "Award";
+      src: url("basketball/wp-content/themes/oxigeno/fonts/Award/Award.woff") format("woff"), url("http://oxigeno.bold-themes.com/basketball/wp-content/themes/oxigeno/fonts/Award/Award.ttf") format("truetype");
+    }
+
+    *[data-ico-award]:before {
+      font-family: Award;
+      content: attr(data-ico-award);
+    }
+
+    @font-face {
+      font-family: "Basketball";
+      src: url("basketball/wp-content/themes/oxigeno/fonts/Basketball/Basketball.woff") format("woff"), url("http://oxigeno.bold-themes.com/basketball/wp-content/themes/oxigeno/fonts/Basketball/Basketball.ttf") format("truetype");
+    }
+
+    *[data-ico-basketball]:before {
+      font-family: Basketball;
+      content: attr(data-ico-basketball);
+    }
+
+    @font-face {
+      font-family: "Essential";
+      src: url("basketball/wp-content/themes/oxigeno/fonts/Essential/Essential.woff") format("woff"), url("http://oxigeno.bold-themes.com/basketball/wp-content/themes/oxigeno/fonts/Essential/Essential.ttf") format("truetype");
+    }
+
+    *[data-ico-essential]:before {
+      font-family: Essential;
+      content: attr(data-ico-essential);
+    }
+
+    @font-face {
+      font-family: "FontAwesome";
+      src: url("basketball/wp-content/themes/oxigeno/fonts/FontAwesome/FontAwesome.woff") format("woff"), url("fonts/fontawesome-free-5.14.0-web/webfonts/fa-brands-400.ttf") format("truetype");
+    }
+
+    *[data-ico-fontawesome]:before {
+      font-family: FontAwesome;
+      content: attr(data-ico-fontawesome);
+    }
+
+
+    @font-face {
+      font-family: "Sport";
+      src: url("basketball/wp-content/themes/oxigeno/fonts/Sport/Sport.woff") format("woff"), url("http://oxigeno.bold-themes.com/basketball/wp-content/themes/oxigeno/fonts/Sport/Sport.ttf") format("truetype");
+    }
+
+    *[data-ico-sport]:before {
+      font-family: Sport;
+      content: attr(data-ico-sport);
+    }
+
+  </style>
+  <link href="fonts/fontawesome-free-5.14.0-web/css/all.css">
+  <link rel='stylesheet' id='oxigeno-print-css'
+        href='http://oxigeno.bold-themes.com/basketball/wp-content/themes/oxigeno/print.css?ver=5.4.2' type='text/css'
+        media='print'/>
+  <link rel='stylesheet' id='oxigeno-fonts-css'
+        href='https://fonts.googleapis.com/css?family=Montserrat%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CNunito+Sans%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CMontserrat%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CLibre+Baskerville%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CMontserrat%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic&#038;subset=latin%2Clatin-ext&#038;ver=1.0.0'
+        type='text/css' media='all'/>
+  <link rel='stylesheet' id='boldthemes-framework-css'
+        href='http://oxigeno.bold-themes.com/basketball/wp-content/themes/oxigeno/framework/css/style.css?ver=5.4.2'
+        type='text/css' media='all'/>
+  <script type='text/javascript'
+          src='http://oxigeno.bold-themes.com/basketball/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+  <script type='text/javascript'
+          src='http://oxigeno.bold-themes.com/basketball/wp-content/plugins/bold-page-builder/slick/slick.min.js?ver=5.4.2'></script>
+  <script type='text/javascript'
+          src='http://oxigeno.bold-themes.com/basketball/wp-content/plugins/bold-page-builder/content_elements_misc/js/content_elements.js?ver=5.4.2'></script>
+  <script type='text/javascript'
+          src='http://oxigeno.bold-themes.com/basketball/wp-content/plugins/bold-page-builder/script_fe.js?ver=5.4.2'></script>
+
+</head>
+
+<body
+  class="bt_bb_plugin_active btHasCrest bt_header_headline_Light_alternate btHasAltLogo btMenuLeftEnabled btMenuBelowLogo btStickyEnabled btHideHeadline btLightSkin btBelowMenu btNoDashInSidebar noBodyPreloader btSoftRoundedButtons btTransparentLightHeader btNoSidebar">
+
+<div class="btPageWrap" id="top">
+
+  <div class="btVerticalHeaderTop">
+    <div class="btVerticalMenuTrigger">&nbsp;
+      <div class="bt_bb_icon"><a href="#" target="_self" data-ico-fa="&#xf0c9;" class="bt_bb_icon_holder"></a></div>
+    </div>
+
+    <div class="btLogoArea">
+      <div class="logo">
+        <div class="logoInner">
+          <a href="#">
+            <img class="btMainLogo" data-hw="5"
+                 src="img/layout/logo-removebg-preview.png"
+                 alt="Basketball">
+            <img class="btAltLogo"
+                 src="img/layout/logo-removebg-preview.png"
+                 alt="Basketball"></a></div>
+      </div><!-- /logo -->
+    </div><!-- /btLogoArea -->
+  </div>
+  <header class="mainHeader btClear gutter ">
+
+    <div class="mainHeaderInner">
+      <div class="btLogoArea menuHolder btClear" style="background:white">
+        <div class="port">
+          <div class="btHorizontalMenuTrigger">&nbsp;<div class="bt_bb_icon">
+            <a href="#" target="_self"
+               data-ico-fa="&#xf0c9;"
+               class="bt_bb_icon_holder"></a>
+          </div>
+          </div>
+
+          <div class="logo">
+            <div class='btCrest'><a href='#'><img
+              src='img/layout/logo-removebg-preview.png'
+              class='btCrestImg' alt='Basketball'/></a></div>
+
+          </div><!-- /logo -->
+
+        </div><!-- /port -->
+      </div><!-- /menuHolder -->
+      <div class="btBelowLogoArea btClear">
+        <div class="port">
+          <div class="menuPort">
+            <div class="topBarInMenu">
+              <div class="topBarInMenuCell">
+                <a href="https://www.facebook.com/gdgbasquetebol/" target="_blank" class="btIconWidget ">
+                  <div class="btIconWidgetIcon"><span data-ico-fontawesome="&#xf09a;" class="bt_bb_icon_holder"></span>
+                  </div>
+                </a><a href="https://www.instagram.com/gafanhabasquetebol/" target="_blank" class="btIconWidget ">
+                <div class="btIconWidgetIcon"><span data-ico-fontawesome="&#xf16d;" class="bt_bb_icon_holder"></span>
+                </div>
+              </a><a href="https://twitter.com/gdgbasquetebol" target="_blank" class="btIconWidget ">
+                <div class="btIconWidgetIcon"><span data-ico-fontawesome="&#xf099;" class="bt_bb_icon_holder"></span>
+                </div>
+              </a><a href="tel:+351 234 191 143" target="_blank" class="btIconWidget ">
+                <div class="btIconWidgetIcon"><span data-ico-fontawesome="&#xf095;" class="bt_bb_icon_holder"></span>
+                </div>
+              </a>
+                <a href="mailto: gafanhabasquetebol@gmail.com" target="_blank" class="btIconWidget ">
+                  <div class="btIconWidgetIcon"><span data-ico-fontawesome="&#xf0e0;" class="bt_bb_icon_holder"></span>
+                  </div>
+                </a></div><!-- /topBarInMenu -->
+            </div><!-- /topBarInMenuCell -->
+            <nav>
+              <ul id="menu-primary-menu" class="menu">
+                <li id="menu-item-1524"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-1524">
+                  <a href="#" aria-current="page">Início</a></li>
+                <li id="menu-item-1519"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1519">
+                  <a href="http://oxigeno.bold-themes.com/basketball/about-us/">Sobre nós</a>
+                  <ul class="sub-menu">
+                    <li id="menu-item-1545"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1545"><a
+                      href="http://oxigeno.bold-themes.com/basketball/about-us/">Visão geral</a></li>
+                    <li id="menu-item-1546"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1546"><a
+                      href="http://oxigeno.bold-themes.com/basketball/about-us/club-history/">História</a></li>
+                    <li id="menu-item-1528"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1528"><a
+                      href="http://oxigeno.bold-themes.com/basketball/about-us/our-team/">A nossa equipa</a></li>
+                    <li id="menu-item-1548"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1548"><a
+                      href="treinadores.html">Treinadores</a></li>
+                    <li id="menu-item-1547"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1547"><a
+                      href="http://oxigeno.bold-themes.com/basketball/about-us/sponsors/">Patrocinadores</a></li>
+                  </ul>
+                </li>
+                <li id="menu-item-1525"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1525">
+                  <a href="http://oxigeno.bold-themes.com/basketball/fixtures/">Jogos</a>
+                  <ul class="sub-menu">
+                    <li id="menu-item-1559"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559"><a
+                      href="http://oxigeno.bold-themes.com/basketball/fixtures/">Visão geral</a></li>
+                    <li id="menu-item-1569"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1569"><a
+                      href="http://oxigeno.bold-themes.com/basketball/fixtures/game-report/">Relatórios</a></li>
+                  </ul>
+                </li>
+                <li id="menu-item-1527"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1527">
+                  <a href="form.html" aria-current="page">Contacte-nos</a>
+                </li>
+              </ul>
+            </nav>
+          </div><!-- .menuPort -->
+        </div><!-- /port -->
+      </div><!-- /menuHolder / btBelowLogoArea -->
+    </div><!-- / inner header for scrolling -->
+
+  </header><!-- /.mainHeader -->
+  <div class="btContentWrap btClear">
+    <div class="btContentHolder">
+
+      <div class="btContent">
+        <div class="bt_bb_wrapper">
+          <section id="bt_bb_sectionTop" data-parallax="0.6" data-parallax-offset="0"
+                   class="bt_bb_section bt_bb_top_spacing_extra_large bt_bb_bottom_spacing_large bt_bb_color_scheme_1 bt_bb_layout_boxed_1200 bt_bb_full_screen bt_bb_vertical_align_bottom bt_bb_parallax bt_bb_background_image"
+                   style="background-image:url(img/layout/download1.jpg);">
+            <div class="bt_bb_port">
+              <div class="bt_bb_cell">
+                <div class="bt_bb_cell_inner">
+                  <div class="bt_bb_row_wrapper">
+                    <div class="bt_bb_row">
+                      <div
+                        class="bt_bb_column col-md-12 col-ms-12 bt_bb_align_center bt_bb_vertical_align_bottom bt_bb_padding_normal"
+                        data-width="12">
+                        <div class="bt_bb_column_content">
+                          <div class="bt_bb_column_content_inner">
+                            <header
+                              class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_8 bt_bb_dash_none bt_bb_size_extralarge bt_bb_superheadline bt_bb_align_inherit">
+                              <h2>
+                                <span class="bt_bb_headline_content"><strong>GDG BASQUETEBOL</strong></span>
+                                <span class="bt_bb_headline_superheadline" style="font-size: smaller;">
+                                  <span><br><br><strong>TODOS</strong> POR <strong>TODOS</strong></span>
+                                </span>
+                              </h2>
+                            </header>
+                            <div
+                              class="bt_bb_separator bt_bb_top_spacing_normal bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bt_bb_row_wrapper">
+                    <div class="bt_bb_row">
+                      <div
+                        class="bt_bb_highlight_shadow bt_bb_section bt_bb_layout_boxed_left_right_1200 animate btLightSkin"
+                        data-width="12">
+                        <div class="bt_bb_column_content">
+                          <div class="bt_bb_column_content_inner">
+                            <div
+                              class="bt_bb_content_slider bt_bb_gap_no_gap bt_bb_arrows_size_small bt_bb_show_dots_hide bt_bb_height_auto bt_bb_animation_slide bt_bb_multiple_slides">
+                              <div class="slick-slider"
+                                   data-slick='{ "lazyLoad": "progressive", "cssEase": "ease-out", "prevArrow": "&lt;button type=\"button\" class=\"slick-prev\" aria-label=\"Previous\" tabindex=\"0\" role=\"button\"&gt;&lt;/button&gt;", "nextArrow": "&lt;button type=\"button\" class=\"slick-next\" aria-label=\"Next\" tabindex=\"0\" role=\"button\"&gt;&lt;/button&gt;", "adaptiveHeight": true,"slidesToShow": 4,"autoplay": true, "autoplaySpeed": 3000, "responsive": [{ "breakpoint": 480, "settings": { "slidesToShow": 1, "slidesToScroll": 1 } },{ "breakpoint": 768, "settings": { "slidesToShow": 2, "slidesToScroll": 2 } },{ "breakpoint": 920 }]}'>
+                                <div class="bt_bb_content_slider_item">
+                                  <div class="bt_bb_content_slider_item_content content">
+                                    <div class="bt_bb_scheduled_game bt_bb_color_scheme_2">
+                                      <div class="bt_bb_scheduled_game_image"><img
+                                        src="img/patrocinadores/reiseana.png"
+                                        alt="Reis&Ana"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="bt_bb_content_slider_item" style="margin-top: 5px">
+                                  <div class="bt_bb_content_slider_item_content content">
+                                    <div class="bt_bb_scheduled_game bt_bb_color_scheme_2">
+                                      <div class="bt_bb_scheduled_game_image">
+                                        <img
+                                          src="img/patrocinadores/aires.jpg"
+                                          alt="Aires">
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="bt_bb_content_slider_item" style="margin-top: 5px">
+                                  <div class="bt_bb_content_slider_item_content content">
+                                    <div class="bt_bb_scheduled_game bt_bb_color_scheme_2">
+                                      <div class="bt_bb_scheduled_game_image"><img
+                                        src="img/patrocinadores/opticabranco.png"
+                                        alt="ÓpticaBranco"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="bt_bb_content_slider_item" style="margin-top: 5px">
+                                  <div class="bt_bb_content_slider_item_content content">
+                                    <div class="bt_bb_scheduled_game bt_bb_color_scheme_2">
+                                      <div class="bt_bb_scheduled_game_image"><img
+                                        src="img/patrocinadores/esporgel.jpg"
+                                        alt="Esporgel"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="bt_bb_content_slider_item">
+                                  <div class="bt_bb_content_slider_item_content content">
+                                    <div class="bt_bb_scheduled_game bt_bb_color_scheme_2">
+                                      <div class="bt_bb_scheduled_game_image"><img
+                                        src="img/patrocinadores/NVATecLogoOriginal.png"
+                                        alt="NVA"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="bt_bb_sectionPrincipios"
+                   class="bt_bb_section bt_bb_top_spacing_medium bt_bb_bottom_spacing_medium bt_bb_layout_boxed_1200 bt_bb_vertical_align_top">
+            <div class="bt_bb_port">
+              <div class="bt_bb_cell">
+                <div class="bt_bb_cell_inner">
+                  <div class="bt_bb_row_wrapper">
+                    <div class="bt_bb_row">
+                      <div
+                        class="bt_bb_column col-md-12 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal"
+                        data-width="12">
+                        <div class="bt_bb_column_content">
+                          <div class="bt_bb_column_content_inner">
+                            <header
+                              class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_5 bt_bb_dash_none bt_bb_size_normal bt_bb_superheadline bt_bb_align_inherit">
+                              <h2><span class="bt_bb_headline_superheadline">GDG BASQUETEBOL</span><span
+                                class="bt_bb_headline_content"><span>OS NOSSOS <strong>PRINCÍPIOS</strong></span></span>
+                              </h2>
+                            </header>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bt_bb_row_wrapper">
+                    <div class="bt_bb_row">
+                      <div
+                        class="bt_bb_column col-md-2 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal"
+                        data-width="3">
+                        <div class="bt_bb_column_content">
+                          <div class="bt_bb_column_content_inner">
+                            <div
+                              class="bt_bb_service bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_large bt_bb_shape_circle bt_bb_align_inherit">
+                              <a href="#" target="_self" title="União" data-ico-basketball="&#xf10c;"
+                                 class="bt_bb_icon_holder"></a>
+                              <div class="bt_bb_service_content">
+                                <div class="bt_bb_service_content_title"><a href="#" target="_self">TRABALHO EM
+                                  EQUIPA</a>
+                                </div>
+                                <div class="bt_bb_service_content_text">Desenvolver trabalho em equipa, de forma
+                                  consistente e objetiva.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="bt_bb_column col-md-2 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal"
+                        data-width="3">
+                        <div class="bt_bb_column_content">
+                          <div class="bt_bb_column_content_inner">
+                            <div
+                              class="bt_bb_service bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_large bt_bb_shape_circle bt_bb_align_inherit">
+                              <a href="#" target="_self" title="Competição" data-ico-basketball="&#xf114;"
+                                 class="bt_bb_icon_holder"></a>
+                              <div class="bt_bb_service_content">
+                                <div class="bt_bb_service_content_title"><a href="#" target="_self">COMPETIÇÃO</a>
+                                </div>
+                                <div class="bt_bb_service_content_text">Possuir sempre uma atitude competitiva, seguindo
+                                  os padrões de ética e fair-play.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="bt_bb_column col-md-2 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal"
+                        data-width="3">
+                        <div class="bt_bb_column_content">
+                          <div class="bt_bb_column_content_inner">
+                            <div
+                              class="bt_bb_service bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_large bt_bb_shape_circle bt_bb_align_inherit">
+                              <a href="#" target="_self" title="Transparência" data-ico-basketball="&#xf104;"
+                                 class="bt_bb_icon_holder"></a>
+                              <div class="bt_bb_service_content">
+                                <div class="bt_bb_service_content_title"><a href="#" target="_self">TRANSPARÊNCIA</a>
+                                </div>
+                                <div class="bt_bb_service_content_text">Ter um relacionamento transparente com adeptos,
+                                  apoiantes, patrocinadores e colaboradores, baseado na responsabilidade e confiança
+                                  mútua.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="bt_bb_column col-md-2 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal"
+                        data-width="3">
+                        <div class="bt_bb_column_content">
+                          <div class="bt_bb_column_content_inner">
+                            <div
+                              class="bt_bb_service bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_large bt_bb_shape_circle bt_bb_align_inherit">
+                              <a href="#" target="_self" title="Fair-play" data-ico-basketball="&#xf10e;"
+                                 class="bt_bb_icon_holder"></a>
+                              <div class="bt_bb_service_content">
+                                <div class="bt_bb_service_content_title"><a href="#" target="_self">FAIR-PLAY</a></div>
+                                <div class="bt_bb_service_content_text">Acreditar nos valores da prática desportiva como
+                                  meio de formação dos jovens para o desenvolvimento de competências sociais.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="bt_bb_sectionTestemunhos" data-parallax="0.6" data-parallax-offset="0"
+                   class="bt_bb_section bt_bb_top_spacing_large bt_bb_bottom_spacing_large bt_bb_color_scheme_1 bt_bb_layout_boxed_1200 bt_bb_vertical_align_top bt_bb_parallax bt_bb_background_image"
+                   style="background-image:url(&#039;img/inner-bg-awards.jpg&#039;);">
+            <div class="bt_bb_port">
+              <div class="bt_bb_cell">
+                <div class="bt_bb_cell_inner">
+                  <div class="bt_bb_row_wrapper">
+                    <div class="bt_bb_row">
+                      <div
+                        class="bt_bb_column col-md-12 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal"
+                        data-width="12">
+                        <div class="bt_bb_column_content">
+                          <div class="bt_bb_column_content_inner">
+                            <header
+                              class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_10 bt_bb_dash_none bt_bb_size_normal bt_bb_subheadline bt_bb_align_inherit">
+                              <h2><span
+                                class="bt_bb_headline_content"><span><strong>TESTEMUNHOS </strong>DE JOGADORES</span></span>
+                              </h2>
+
+                            </header>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bt_bb_row_wrapper">
+                    <div class="bt_bb_row">
+                      <div
+                        class="bt_bb_column col-md-12 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal"
+                        data-width="12">
+                        <div class="bt_bb_column_content">
+                          <div class="bt_bb_column_content_inner">
+                            <div
+                              class="bt_bb_content_slider bt_bb_gap_no_gap bt_bb_arrows_size_no_arrows bt_bb_show_dots_hide bt_bb_height_auto bt_bb_animation_slide">
+                              <div class="slick-slider"
+                                   data-slick='{ "lazyLoad": "progressive", "cssEase": "ease-out", "speed": "600", "arrows": true, "adaptiveHeight": true}'>
+                                <div class="bt_bb_content_slider_item" style="">
+                                  <div class="bt_bb_content_slider_item_content content">
+                                    <div
+                                      class="bt_bb_image bt_bb_shape_hard-rounded bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_middle"
+                                      style="max-width: 120px;"><span><a
+                                      href="https://www.zerozero.pt/player.php?id=659516"><img
+                                      src="img/testemunhos/soeiro.jpg"
+                                      title="Joana Soeiro"
+                                      alt="Joana Soeiro"></a></span>
+                                    </div>
+                                    <div
+                                      class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
+                                    <header
+                                      class="bt_bb_headline bt_bb_dash_none bt_bb_size_small bt_bb_superheadline bt_bb_align_inherit">
+                                      <h2><span class="bt_bb_headline_superheadline">2002-2011 || GDG Basquetebol</span><span
+                                        class="bt_bb_headline_content"><span>JOANA SOEIRO</span></span></h2></header>
+                                    <div
+                                      class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
+                                    <header
+                                      class="bt_bb_headline bt_bb_dash_none bt_bb_size_normal bt_bb_subheadline bt_bb_align_left">
+                                      <div class="bt_bb_headline_subheadline">"<strong>Sonhem! Sonhem alto e sem
+                                        limites!</strong>
+
+                                        <p>Traçar objetivos à medida que vamos conquistando metas é a base do progresso
+                                          e
+                                          da evolução de qualquer atleta que tenha objetivos de carreira.
+                                          Não existe uma fórmula que se possa passar aos futuros jogadores desta
+                                          modalidade. A verdade é que mesmo que existisse, qual seria o sabor da
+                                          vitória,
+                                          do sucesso, das conquistas sem que nos pudéssemos orgulhar de todas as
+                                          dificuldades que soubemos ultrapassar?</p>
+                                        <p>No basket como na vida, ganha quem tiver
+                                          maior capacidade de sacrifício e superação. Nem sempre irá correr bem: nem
+                                          sempre os resultados irão ser imediatos, nem sempre aquele lançamento decisivo
+                                          irá entrar por muito que seja treinado, nem sempre aquela movimentação será
+                                          bem
+                                          executada por muito consolidada que esteja. Será nestes precisos momentos que
+                                          serás testado/a, que irás parar e pensar se é realmente isto que queres para
+                                          ti.
+                                          Pois é também nestes precisos momentos que te deverás lembrar daquele/daquela
+                                          menino/a que se apaixonou pelo jogo, pelo som das sapatilhas no chão dos
+                                          pavilhões, pelo som da bola quando beija a rede e que, independentemente do
+                                          motivo que o/a levou a pegar numa bola pela primeira vez, sonhou, traçou
+                                          objetivos e deu tudo de si até então.
+                                        <p><strong>Hoje serás melhor que ontem e amanhã serás
+                                          melhor que hoje</strong>, nessa filosofia e ética de trabalho, nada será
+                                          impossível!"
+                                      </div>
+                                    </header>
+                                  </div>
+                                </div>
+                                <div class="bt_bb_content_slider_item" style="">
+                                  <div class="bt_bb_content_slider_item_content content">
+                                    <div
+                                      class="bt_bb_image bt_bb_shape_hard-rounded bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_middle"
+                                      style="max-width: 120px;"><span><a
+                                      href="https://www.zerozero.pt/jogador.php?id=589101&search=1"><img
+                                      src="img/testemunhos/amarante2.jpeg"
+                                      title="Francisco Amarante"
+                                      alt="Francisco Amarante"></a></span>
+                                    </div>
+                                    <div
+                                      class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
+                                    <header
+                                      class="bt_bb_headline bt_bb_dash_none bt_bb_size_small bt_bb_superheadline bt_bb_align_inherit">
+                                      <h2><span class="bt_bb_headline_superheadline">2009-2015 || GDG Basquetebol</span><span
+                                        class="bt_bb_headline_content"><span>FRANCISCO AMARANTE</span></span></h2>
+                                    </header>
+                                    <div
+                                      class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
+                                    <header
+                                      class="bt_bb_headline bt_bb_dash_none bt_bb_size_normal bt_bb_subheadline bt_bb_align_left">
+                                      <div class="bt_bb_headline_subheadline">
+                                        <p>
+                                          "Olá GDG, é com muito prazer que vos envio esta mensagem, espero que todos se
+                                          encontrem bem e acredito que com muitas saudades de voltarem aos treinos e
+                                          jogos.
+
+                                          Gostava de vos desejar um bom começo de nova época, em segurança acima de
+                                          tudo, e espero que estejam todos com muita vontade e motivação para demonstrar
+                                          como se trabalha e como se desfruta do basquetebol neste nosso clube!
+
+                                        <p>É com muito orgulho que tive a oportunidade de começar a jogar no Gafanha, o
+                                          clube que me ajudou a crescer como jogador e pessoa, e que me deu amizades
+                                          para toda a vida.
+
+                                          Aproveitem cada momento que têm para se divertirem com o basquetebol e
+                                          desfrutem de tudo o que este desporto nos dá!
+
+                                        <p>Um grande abraço e tudo de bom para a <strong>melhor cidade e melhor clube do
+                                          mundo</strong>,
+                                          O Grupo Desportivo da Gafanha."
+                                        </p>
+                                      </div>
+                                    </header>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bt_bb_row_wrapper">
+                    <div class="bt_bb_row">
+                      <div
+                        class="bt_bb_column col-md-12 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_padding_normal"
+                        data-width="12">
+                        <div class="bt_bb_column_content">
+                          <div class="bt_bb_column_content_inner">
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_large bt_bb_border_style_none"
+                                 style="margin-top:20px;"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="bt_bb_sectionEscaloes"
+                   class="bt_bb_section bt_bb_color_scheme_2 bt_bb_layout_boxed_left_right_1200 bt_bb_vertical_align_top bt_bb_top_negative_margin_extra_large bt_bb_highlight_shadow">
+            <div class="bt_bb_port">
+              <div class="bt_bb_cell">
+                <div class="bt_bb_cell_inner">
+                  <div class="bt_bb_row_wrapper">
+                    <div class="bt_bb_row">
+                      <div
+                        class="bt_bb_column col-md-12 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_padding_normal"
+                        data-width="12">
+                        <div class="bt_bb_column_content">
+                          <div class="bt_bb_column_content_inner">
+                            <div class="bt_bb_separator bt_bb_border_style_none" style="margin-top:20px;"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bt_bb_row_wrapper">
+                    <div class="bt_bb_row">
+                      <div
+                        class="bt_bb_column col-md-12 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal"
+                        data-width="12">
+                        <div class="bt_bb_column_content">
+                          <div class="bt_bb_column_content_inner">
+                            <header
+                              class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_5 bt_bb_dash_none bt_bb_size_normal bt_bb_superheadline bt_bb_align_inherit">
+                              <h2><span class="bt_bb_headline_superheadline">GDG BASQUETEBOL</span><span
+                                class="bt_bb_headline_content"><span><strong>ESCALÕES - FEMININOS</strong></span></span>
+                              </h2>
+                            </header>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="bt_bb_row bt_bb_column_gap_5">
+                      <div
+                        class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_text_indent"
+                        data-width="3">
+                        <div class="bt_bb_column_content">
+
+                          <div class="bt_bb_column_content_inner">
+                            <div
+                              class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_bottom">
+                              <span>
+                                <a href="img/escaloes/SEN%20FEM.jpg"
+                                   target="_self"><img
+                                  src="img/escaloes/SEN%20FEM.jpg"
+                                  alt="Fem-Seniores"></a>
+                              </span>
+                            </div>
+                            <div
+                              class="bt_bb_icon btMoveIconUp bt_bb_color_scheme_6 bt_bb_style_filled-border bt_bb_size_xlarge bt_bb_shape_circle bt_bb_align_inherit bt_bb_style_filled bt_bb_style_border">
+                              <a data-ico-basketball="&#xf110;" class="bt_bb_icon_holder"></a></div>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                            <header
+                              class="bt_bb_headline bt_bb_font_weight_bolder bt_bb_color_scheme_9 bt_bb_dash_none bt_bb_size_small bt_bb_align_inherit">
+                              <h2><span class="bt_bb_headline_content"><span>SENIORES</span></span></h2></header>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                            <div class="bt_bb_text"><p>We are a competitive sport club &#8211; with our players
+                              competing at all levels from local team galas.</p>
+                            </div>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_text_indent"
+                        data-width="3">
+                        <div class="bt_bb_column_content">
+                          <div class="bt_bb_column_content_inner">
+                            <div
+                              class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_bottom">
+                              <span><a href="img/escaloes/Sub19F.jpg"
+                                       target="_self"><img
+                                src="img/escaloes/Sub19F.jpg"
+                                alt="Fem-Sub19"></a></span>
+                            </div>
+                            <div
+                              class="bt_bb_icon btMoveIconUp bt_bb_color_scheme_6 bt_bb_style_filled-border bt_bb_size_xlarge bt_bb_shape_circle bt_bb_align_inherit bt_bb_style_filled bt_bb_style_border">
+                              <a data-ico-basketball="&#xf114;" class="bt_bb_icon_holder"></a></div>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                            <header
+                              class="bt_bb_headline bt_bb_font_weight_bolder bt_bb_color_scheme_9 bt_bb_dash_none bt_bb_size_small bt_bb_align_inherit">
+                              <h2><span class="bt_bb_headline_content"><span>SUB-19</span></span></h2></header>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                            <div class="bt_bb_text"><p>In Oxygen Club are organized single and team diving classes for
+                              all ages &#8211; kids, teenagers or seniors.</p>
+                            </div>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_text_indent"
+                        data-width="3">
+                        <div class="bt_bb_column_content">
+                          <div class="bt_bb_column_content_inner">
+                            <div
+                              class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_bottom">
+                              <span><a href="img/escaloes/Sub%2016%20Femininas.jpg"
+                                       target="_self"><img
+                                src="img/escaloes/Sub%2016%20Femininas.jpg"
+                                alt="Fem-Sub16"></a></span>
+                            </div>
+                            <div
+                              class="bt_bb_icon btMoveIconUp bt_bb_color_scheme_6 bt_bb_style_filled-border bt_bb_size_xlarge bt_bb_shape_circle bt_bb_align_inherit bt_bb_style_filled bt_bb_style_border">
+                              <a data-ico-basketball="&#xf11d;" class="bt_bb_icon_holder"></a></div>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                            <header
+                              class="bt_bb_headline bt_bb_font_weight_bolder bt_bb_color_scheme_9 bt_bb_dash_none bt_bb_size_small bt_bb_align_inherit">
+                              <h2><span class="bt_bb_headline_content"><span>SUB-16</span></span></h2></header>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                            <div class="bt_bb_text"><p>Our players have the highest percentage of overall improvement in
+                              all games.</p>
+                            </div>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_text_indent"
+                        data-width="3">
+                        <div class="bt_bb_column_content">
+                          <div class="bt_bb_column_content_inner">
+                            <div
+                              class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_bottom">
+                              <span><a href="img/escaloes/Sub14F.JPG"
+                                       target="_self"><img
+                                src="img/escaloes/Sub14F.JPG"
+                                alt="Fem-Sub14"></a></span>
+                            </div>
+                            <div
+                              class="bt_bb_icon btMoveIconUp bt_bb_color_scheme_6 bt_bb_style_filled-border bt_bb_size_xlarge bt_bb_shape_circle bt_bb_align_inherit bt_bb_style_filled bt_bb_style_border">
+                              <a data-ico-basketball="&#xf116;" class="bt_bb_icon_holder"></a></div>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                            <header
+                              class="bt_bb_headline bt_bb_font_weight_bolder bt_bb_color_scheme_9 bt_bb_dash_none bt_bb_size_small bt_bb_align_inherit">
+                              <h2><span class="bt_bb_headline_content"><span>SUB-14</span></span></h2></header>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                            <div class="bt_bb_text"><p>The private lessons programme consists of one 30 min. session per
+                              week in private court.</p>
+                            </div>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="bt_bb_row">
+                      <div
+                        class="bt_bb_column col-md-12 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal"
+                        data-width="12">
+                        <div class="bt_bb_column_content">
+                          <div class="bt_bb_column_content_inner">
+                            <header
+                              class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_5 bt_bb_dash_none bt_bb_size_normal bt_bb_superheadline bt_bb_align_inherit">
+                              <h2><span
+                                class="bt_bb_headline_content"><span><strong>ESCALÕES - MASCULINOS</strong></span></span>
+                              </h2>
+                            </header>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="bt_bb_row bt_bb_column_gap_5">
+                      <div
+                        class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_text_indent"
+                        data-width="2,5">
+                        <div class="bt_bb_column_content">
+                          <div class="bt_bb_column_content_inner">
+                            <div
+                              class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_bottom">
+                              <span><img
+                                src="img/escaloes/masters-jk.jpeg"
+                                alt="Masc-Masters"></span>
+                            </div>
+                            <div
+                              class="bt_bb_icon btMoveIconUp bt_bb_color_scheme_6 bt_bb_style_filled-border bt_bb_size_xlarge bt_bb_shape_circle bt_bb_align_inherit bt_bb_style_filled bt_bb_style_border">
+                              <a data-ico-basketball="&#xf110;" class="bt_bb_icon_holder"></a></div>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                            <header
+                              class="bt_bb_headline bt_bb_font_weight_bolder bt_bb_color_scheme_9 bt_bb_dash_none bt_bb_size_small bt_bb_align_inherit">
+                              <h2><span class="bt_bb_headline_content"><span>MASTERS</span></span></h2></header>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                            <div class="bt_bb_text"><p>We are a competitive sport club &#8211; with our players
+                              competing at all levels from local team galas.</p>
+                            </div>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_text_indent"
+                        data-width="2,5">
+                        <div class="bt_bb_column_content">
+                          <div class="bt_bb_column_content_inner">
+                            <div
+                              class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_bottom">
+                              <span><a href="img/escaloes/SenM.jpg"
+                                       target="_self"><img
+                                src="img/escaloes/SenM.jpg"
+                                alt="Masc-Seniores"></a></span>
+                            </div>
+                            <div
+                              class="bt_bb_icon btMoveIconUp bt_bb_color_scheme_6 bt_bb_style_filled-border bt_bb_size_xlarge bt_bb_shape_circle bt_bb_align_inherit bt_bb_style_filled bt_bb_style_border">
+                              <a data-ico-basketball="&#xf110;" class="bt_bb_icon_holder"></a></div>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                            <header
+                              class="bt_bb_headline bt_bb_font_weight_bolder bt_bb_color_scheme_9 bt_bb_dash_none bt_bb_size_small bt_bb_align_inherit">
+                              <h2><span class="bt_bb_headline_content"><span>SENIORES</span></span></h2></header>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                            <div class="bt_bb_text"><p>We are a competitive sport club &#8211; with our players
+                              competing at all levels from local team galas.</p>
+                            </div>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_text_indent"
+                        data-width="2,5">
+                        <div class="bt_bb_column_content">
+                          <div class="bt_bb_column_content_inner">
+                            <div
+                              class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_bottom">
+                              <span><a href="img/escaloes/Sub18M.JPG"
+                                       target="_self"><img
+                                src="img/escaloes/Sub18M.JPG"
+                                alt="Masc-Sub18"></a></span>
+                            </div>
+                            <div
+                              class="bt_bb_icon btMoveIconUp bt_bb_color_scheme_6 bt_bb_style_filled-border bt_bb_size_xlarge bt_bb_shape_circle bt_bb_align_inherit bt_bb_style_filled bt_bb_style_border">
+                              <a data-ico-basketball="&#xf114;" class="bt_bb_icon_holder"></a></div>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                            <header
+                              class="bt_bb_headline bt_bb_font_weight_bolder bt_bb_color_scheme_9 bt_bb_dash_none bt_bb_size_small bt_bb_align_inherit">
+                              <h2><span class="bt_bb_headline_content"><span>SUB-18</span></span></h2></header>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                            <div class="bt_bb_text"><p>In Oxygen Club are organized single and team diving classes for
+                              all ages &#8211; kids, teenagers or seniors.</p>
+                            </div>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_text_indent"
+                        data-width="2,5">
+                        <div class="bt_bb_column_content">
+                          <div class="bt_bb_column_content_inner">
+                            <div
+                              class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_bottom">
+                              <span><a href="img/escaloes/Sub16M.JPG"
+                                       target="_self"><img
+                                src="img/escaloes/Sub16M.JPG"
+                                alt="Masc-Sub16"></a></span>
+                            </div>
+                            <div
+                              class="bt_bb_icon btMoveIconUp bt_bb_color_scheme_6 bt_bb_style_filled-border bt_bb_size_xlarge bt_bb_shape_circle bt_bb_align_inherit bt_bb_style_filled bt_bb_style_border">
+                              <a data-ico-basketball="&#xf11d;" class="bt_bb_icon_holder"></a></div>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                            <header
+                              class="bt_bb_headline bt_bb_font_weight_bolder bt_bb_color_scheme_9 bt_bb_dash_none bt_bb_size_small bt_bb_align_inherit">
+                              <h2><span class="bt_bb_headline_content"><span>SUB-16</span></span></h2></header>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                            <div class="bt_bb_text"><p>Our players have the highest percentage of overall improvement in
+                              all games.</p>
+                            </div>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_text_indent"
+                        data-width="2,5">
+                        <div class="bt_bb_column_content">
+                          <div class="bt_bb_column_content_inner">
+                            <div
+                              class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_bottom">
+                              <span><a href="img/escaloes/Sub14M.JPG"
+                                       target="_self"><img
+                                src="img/escaloes/Sub14M.JPG"
+                                alt="Masc-Sub14"></a></span>
+                            </div>
+                            <div
+                              class="bt_bb_icon btMoveIconUp bt_bb_color_scheme_6 bt_bb_style_filled-border bt_bb_size_xlarge bt_bb_shape_circle bt_bb_align_inherit bt_bb_style_filled bt_bb_style_border">
+                              <a data-ico-basketball="&#xf116;" class="bt_bb_icon_holder"></a></div>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                            <header
+                              class="bt_bb_headline bt_bb_font_weight_bolder bt_bb_color_scheme_9 bt_bb_dash_none bt_bb_size_small bt_bb_align_inherit">
+                              <h2><span class="bt_bb_headline_content"><span>SUB-14</span></span></h2></header>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                            <div class="bt_bb_text"><p>The private lessons programme consists of one 30 min. session per
+                              week in private court.</p>
+                            </div>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bt_bb_row">
+                    <div
+                      class="bt_bb_column col-md-12 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal"
+                      data-width="12">
+                      <div class="bt_bb_column_content">
+                        <div class="bt_bb_column_content_inner">
+                          <header
+                            class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_5 bt_bb_dash_none bt_bb_size_normal bt_bb_superheadline bt_bb_align_inherit">
+                            <h2><span
+                              class="bt_bb_headline_content"><span><strong>ESCALÕES - MISTOS</strong></span></span></h2>
+                          </header>
+                          <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bt_bb_row bt_bb_column_gap_5">
+                    <div
+                      class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_text_indent"
+                      data-width="4">
+                      <div class="bt_bb_column_content">
+                        <div class="bt_bb_column_content_inner">
+                          <div
+                            class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_bottom">
+                              <span><a href="img/escaloes/SUB12.jpg"
+                                       target="_self"><img
+                                src="img/escaloes/SUB12.jpg"
+                                alt="Mistos-Sub12"></a></span>
+                          </div>
+                          <div
+                            class="bt_bb_icon btMoveIconUp bt_bb_color_scheme_6 bt_bb_style_filled-border bt_bb_size_xlarge bt_bb_shape_circle bt_bb_align_inherit bt_bb_style_filled bt_bb_style_border">
+                            <a data-ico-basketball="&#xf110;" class="bt_bb_icon_holder"></a></div>
+                          <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                          <header
+                            class="bt_bb_headline bt_bb_font_weight_bolder bt_bb_color_scheme_9 bt_bb_dash_none bt_bb_size_small bt_bb_align_inherit">
+                            <h2><span class="bt_bb_headline_content"><span>SUB-12</span></span></h2></header>
+                          <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                          <div class="bt_bb_text"><p>We are a competitive sport club &#8211; with our players
+                            competing at all levels from local team galas.</p>
+                          </div>
+                          <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_text_indent"
+                      data-width="4">
+                      <div class="bt_bb_column_content">
+                        <div class="bt_bb_column_content_inner">
+                          <div
+                            class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_bottom">
+                              <span><a href="img/escaloes/SUB8-SUB10.jpg"
+                                       target="_self"><img
+                                src="img/escaloes/SUB8-SUB10.jpg"
+                                alt="Mistos-Sub8-Sub10"></a></span>
+                          </div>
+                          <div
+                            class="bt_bb_icon btMoveIconUp bt_bb_color_scheme_6 bt_bb_style_filled-border bt_bb_size_xlarge bt_bb_shape_circle bt_bb_align_inherit bt_bb_style_filled bt_bb_style_border">
+                            <a data-ico-basketball="&#xf114;" class="bt_bb_icon_holder"></a></div>
+                          <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                          <header
+                            class="bt_bb_headline bt_bb_font_weight_bolder bt_bb_color_scheme_9 bt_bb_dash_none bt_bb_size_small bt_bb_align_inherit">
+                            <h2><span class="bt_bb_headline_content"><span>SUB-8 e SUB-10</span></span></h2></header>
+                          <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                          <div class="bt_bb_text"><p>In Oxygen Club are organized single and team diving classes for
+                            all ages &#8211; kids, teenagers or seniors.</p>
+                          </div>
+                          <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_text_indent"
+                      data-width="4">
+                      <div class="bt_bb_column_content">
+                        <div class="bt_bb_column_content_inner">
+                          <div
+                            class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_bottom">
+                              <span><a href="img/escaloes/BABYS.JPG"
+                                       target="_self"><img
+                                src="img/escaloes/BABYS.JPG"
+                                alt="Mistos-Babys"></a></span>
+                          </div>
+                          <div
+                            class="bt_bb_icon btMoveIconUp bt_bb_color_scheme_6 bt_bb_style_filled-border bt_bb_size_xlarge bt_bb_shape_circle bt_bb_align_inherit bt_bb_style_filled bt_bb_style_border">
+                            <a data-ico-basketball="&#xf11d;" class="bt_bb_icon_holder"></a></div>
+                          <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                          <header
+                            class="bt_bb_headline bt_bb_font_weight_bolder bt_bb_color_scheme_9 bt_bb_dash_none bt_bb_size_small bt_bb_align_inherit">
+                            <h2><span class="bt_bb_headline_content"><span>BABYS</span></span></h2></header>
+                          <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                          <div class="bt_bb_text"><p>Our players have the highest percentage of overall improvement in
+                            all games.</p>
+                          </div>
+                          <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="bt_bb_sectionBg"
+                   class="bt_bb_section bt_bb_top_spacing_medium bt_bb_bottom_spacing_medium bt_bb_layout_boxed_1200 bt_bb_vertical_align_top">
+            <div class="bt_bb_port"></div>
+          </section>
+          <section id="bt_bb_sectionMarcosHistoricos"
+                   class="bt_bb_section bt_bb_top_spacing_large bt_bb_bottom_spacing_large bt_bb_color_scheme_2 bt_bb_layout_boxed_1200 bt_bb_vertical_align_top">
+            <div class="bt_bb_port">
+              <div class="bt_bb_cell">
+                <div class="bt_bb_cell_inner">
+                  <div class="bt_bb_row_wrapper">
+                    <div class="bt_bb_row">
+                      <div
+                        class="bt_bb_column col-md-12 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal"
+                        data-width="12">
+                        <div class="bt_bb_column_content">
+                          <div class="bt_bb_column_content_inner">
+                            <header
+                              class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_5 bt_bb_dash_none bt_bb_size_normal bt_bb_superheadline bt_bb_align_inherit">
+                              <h2><span class="bt_bb_headline_superheadline">GDG BASQUETEBOL</span><span
+                                class="bt_bb_headline_content"><span>MARCOS <strong>HISTÓRICOS</strong></span></span>
+                              </h2>
+                            </header>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bt_bb_row_wrapper">
+                    <div class="bt_bb_row">
+                      <div
+                        class="bt_bb_column col-md-12 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal"
+                        data-width="12">
+                        <div class="bt_bb_column_content">
+                          <div class="bt_bb_column_content_inner">
+                            <div class="bt_bb_latest_posts bt_bb_columns_5 bt_bb_gap_normal bt_bb_image_shape_rounded">
+                              <div class="bt_bb_latest_posts_item">
+                                <div class="bt_bb_latest_posts_item_image" style="border-top: outset;"><a
+                                  target="_self"><img
+                                  src="img/layout/gdg.png"
+                                  alt="1957" style="width: 65%; margin-left: 40px"></a><span
+                                  class="bt_bb_latest_posts_item_date"><span class="btDay">1957</span></span></div>
+
+                                <div class="bt_bb_latest_posts_item_content">Em 1957, foi fundado o Grupo Desportivo
+                                  do Gafanha, na cidade da Gafanha da Nazaré - Ílhavo
+                                </div>
+
+                              </div>
+                              <div class="bt_bb_latest_posts_item">
+                                <div class="bt_bb_latest_posts_item_image" style="border-top: outset;"><a
+                                  target="_self"><img
+                                  src="img/layout/logo.png" style="width: 105%;"
+                                  alt="1989/1990"></a><span
+                                  class="bt_bb_latest_posts_item_date"><span class="btDay">1989/1990</span></span></div>
+
+                                <div class="bt_bb_latest_posts_item_content">Criação da Secção de Basquetebol - Época
+                                  1989/1990
+                                </div>
+
+                              </div>
+                              <div class="bt_bb_latest_posts_item">
+                                <div class="bt_bb_latest_posts_item_image"><a
+                                  href="http://oxigeno.bold-themes.com/basketball/2017/11/12/list-of-all-body-positions-and-elements-in-basketball/"
+                                  target="_self"><img
+                                  src="http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/10/post_08-640x427.jpg"
+                                  alt="List of all body positions and elements in basketball"
+                                  title="List of all body positions and elements in basketball"></a><span
+                                  class="bt_bb_latest_posts_item_date"><span class="btDay">2000/2001</span></span></div>
+                                <div class="bt_bb_latest_posts_item_content">Vice-campeão Nacional de Sub-19 Femininas
+                                  na Época 2000/2001
+                                </div>
+                              </div>
+                              <div class="bt_bb_latest_posts_item">
+                                <div class="bt_bb_latest_posts_item_image" style="border-top: outset;"><a
+                                  target="_self"><img
+                                  src="img/marcos/idp.jpg" style="width: 95%;"
+                                  alt="IDP"></a><span
+                                  class="bt_bb_latest_posts_item_date"><span class="btDay">2002</span></span></div>
+
+                                <div class="bt_bb_latest_posts_item_content">Clube desportivo declarado em 2002
+                                  Associação de Utilidade Pública pelo Instituto do Desporto de Portugal
+                                </div>
+                              </div>
+                              <div class="bt_bb_latest_posts_item">
+                                <div class="bt_bb_latest_posts_item_image"><a
+                                  href="http://oxigeno.bold-themes.com/basketball/2017/11/14/the-best-mvp-players-in-oxygen-basketball-club/"
+                                  target="_self"><img
+                                  src="http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/10/post_10-640x427.jpg"
+                                  alt="The best MVP players in Oxygen Basketball club"
+                                  title="The best MVP players in Oxygen Basketball club"></a><span
+                                  class="bt_bb_latest_posts_item_date"><span class="btDay">2003/2004</span></span></div>
+
+                                <div class="bt_bb_latest_posts_item_content">Campeão Nacional de Sub-16 Femininas na
+                                  Época 2003/2004
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bt_bb_row">
+                    <div
+                      class="bt_bb_column col-md-12 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal"
+                      data-width="12">
+                      <div class="bt_bb_column_content">
+                        <div class="bt_bb_column_content_inner">
+                          <div class="bt_bb_latest_posts bt_bb_columns_5 bt_bb_gap_normal bt_bb_image_shape_rounded">
+                            <div class="bt_bb_latest_posts_item">
+                              <div class="bt_bb_latest_posts_item_image" style="border-top: outset;"><a
+                                target="_self"><img
+                                src="img/marcos/fpb.jpg" style="width: 70%; margin-left: 40px"
+                                alt="FPB"></a><span
+                                class="bt_bb_latest_posts_item_date"><span class="btDay">2005-2010</span></span>
+                              </div>
+                              <div class="bt_bb_latest_posts_item_content">Certificado de Qualidade como Escola
+                                Portuguesa de Minibasquete em 2005/06, 2006/07, 2007/08, 2008/09, 2009/10 e 2010/11
+                              </div>
+                            </div>
+                            <div class="bt_bb_latest_posts_item">
+                              <div class="bt_bb_latest_posts_item_image"><a
+                                href="http://oxigeno.bold-themes.com/basketball/2017/11/12/list-of-all-body-positions-and-elements-in-basketball/"
+                                target="_self"><img
+                                src="img/TN%20S19F%2012-13.jpg"
+                                alt="2012-13-Sub19F-Campeao"></a><span
+                                class="bt_bb_latest_posts_item_date"><span class="btDay">2012/2013</span></span></div>
+                              <div class="bt_bb_latest_posts_item_content">Campeão da Taça Nacional de Sub-19
+                                Femininos na Época 2012/2013
+                              </div>
+                            </div>
+                            <div class="bt_bb_latest_posts_item">
+                              <div class="bt_bb_latest_posts_item_image"><a
+                                href="img/marcos/3lugar-2013-14-Sub14F.jpg"
+                                target="_self"><img
+                                src="img/marcos/3lugar-2013-14-Sub14F.jpg"
+                                alt="2013-14-3-Sub14F"></a><span
+                                class="bt_bb_latest_posts_item_date"><span class="btDay">2013/2014</span></span></div>
+                              <div class="bt_bb_latest_posts_item_content">3º Classificado no 1º Campeonato Nacional
+                                de Sub-14 Femininos na Época 2013/2014
+                              </div>
+                            </div>
+                            <div class="bt_bb_latest_posts_item">
+                              <div class="bt_bb_latest_posts_item_image"><a
+                                target="_self"><img style="width: 100%"
+                                                    src="img/marcos/2015-16-vice-masters.jpeg"
+                                                    alt="2015-16-Masters"></a><span
+                                class="bt_bb_latest_posts_item_date"><span class="btDay">2015/2016</span></span></div>
+                              <div class="bt_bb_latest_posts_item_content">Vice-campeão na 1ª Liga Nacional de
+                                Masters Masculinos na Época 2015/2016
+                              </div>
+                            </div>
+                            <div class="bt_bb_latest_posts_item">
+                              <div class="bt_bb_latest_posts_item_image"><a
+                                target="_self"><img
+                                src="img/marcos/2015-16-campeas.jpeg"
+                                alt="2015-16-SenFem"></a><span
+                                class="bt_bb_latest_posts_item_date"><span class="btDay">2015/2016</span></span></div>
+                              <div class="bt_bb_latest_posts_item_content">Campeão Nacional de Seniores Femininos da
+                                1ºdivisão na Época 2015/2016
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bt_bb_row">
+                    <div
+                      class="bt_bb_column col-md-12 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal"
+                      data-width="3">
+                      <div class="bt_bb_column_content">
+                        <div class="bt_bb_column_content_inner">
+                          <div class="bt_bb_latest_posts bt_bb_columns_5 bt_bb_gap_normal bt_bb_image_shape_rounded">
+                            <div class="bt_bb_latest_posts_item">
+                              <div class="bt_bb_latest_posts_item_image"><a
+                                target="_self"><img
+                                src="img/vice%20TN%20S16M%2017-18.jpg"
+                                alt="FPB"></a><span
+                                class="bt_bb_latest_posts_item_date"><span class="btDay">2017/2018</span></span>
+                              </div>
+                              <div class="bt_bb_latest_posts_item_content">Vice-campeão da Taça Nacional de Sub-16
+                                Masculinos na Época 2017/2018
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="bt_bb_sectionImg" data-parallax="0.6" data-parallax-offset="0"
+                   class="bt_bb_section bt_bb_top_spacing_large bt_bb_color_scheme_1 bt_bb_layout_boxed_1200 bt_bb_vertical_align_top bt_bb_parallax bt_bb_background_image"
+                   style="background-image:url(&#039;img/inner-hero-team.jpg&#039;); height: 900px">
+
+          </section>
+          <section id="bt_bb_sectionSaberMais"
+                   class="bt_bb_section bt_bb_color_scheme_2 bt_bb_layout_boxed_right_1200 bt_bb_vertical_align_top  bt_bb_highlight_shadow"
+                   style="margin-top: -55%;">
+            <div class="bt_bb_port">
+              <div class="bt_bb_cell">
+                <div class="bt_bb_cell_inner">
+                  <div class="bt_bb_row_wrapper">
+                    <div class="bt_bb_row">
+                      <div
+                        class="bt_bb_column col-md-6 col-sm-12 bt_bb_align_left bt_bb_vertical_align_middle bt_bb_animation_fade_in animate bt_bb_padding_normal"
+                        data-width="5">
+                        <div class="bt_bb_column_content">
+                          <div class="bt_bb_column_content_inner">
+                            <div class="bt_bb_separator bt_bb_top_spacing_medium bt_bb_border_style_none"></div>
+                            <header
+                              class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_5 bt_bb_dash_none bt_bb_size_large bt_bb_superheadline bt_bb_subheadline bt_bb_align_inherit">
+                              <h2><span class="bt_bb_headline_superheadline">SABER MAIS</span><span
+                                class="bt_bb_headline_content"><span>SOBRE O <strong>GDG BASQUETEBOL</strong></span></span>
+                              </h2>
+                              <div class="bt_bb_headline_subheadline">Pretendemos promover e desenvolver o Basquetebol e
+                                garantir o desenvolvimento da nossa Secção
+                              </div>
+                            </header>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>
+                            <div class="bt_bb_text"><p>Procuramos:</p>
+                              <p><strong>- Ser um modelo de referência para os demais clubes da região;</strong></p>
+
+                              <p><strong>- Melhorar continuamente a qualidade da formação desportiva e humana;</strong>
+                              </p>
+                              <p><strong>- Ser sustentáveis do ponto de vista económico, social e ambiental;</strong>
+                              </p>
+                              <p><strong>- Ser um clube unido, atrativo e dinâmico.</strong></p>
+                            </div>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
+                            <div
+                              class="bt_bb_button bt_bb_icon_position_left bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_medium bt_bb_width_inline bt_bb_shape_inherit bt_bb_align_inherit">
+                              <a href="http://oxigeno.bold-themes.com/basketball/contact/" target="_self"
+                                 class="bt_bb_link"><span
+                                class="bt_bb_button_text">JUNTE-SE A NÓS</span></a></div>
+                            <div
+                              class="bt_bb_button bt_bb_icon_position_left bt_bb_color_scheme_4 bt_bb_style_outline bt_bb_size_medium bt_bb_width_inline bt_bb_shape_inherit bt_bb_align_inherit">
+                              <a href="http://oxigeno.bold-themes.com/basketball/about-us/" target="_self"
+                                 class="bt_bb_link" title="LEARN MORE"><span class="bt_bb_button_text">SABER MAIS</span></a>
+                            </div>
+                            <div class="bt_bb_separator bt_bb_bottom_spacing_medium bt_bb_border_style_none"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="bt_bb_column col-md-6 col-sm-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_padding_normal"
+                        data-width="7">
+                        <div class="bt_bb_column_content">
+                          <div class="bt_bb_column_content_inner">
+                            <div
+                              class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_middle">
+                              <span><img
+                                src="img/group-hug.jpg"
+                                title="inner-vertical"
+                                alt=""></span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div><!-- /boldthemes_content -->
+
+    </div><!-- /contentHolder -->
+  </div><!-- /contentWrap -->
+
+  <div class="btSiteFooter" style="margin-top: 5%">
+
+    <div class="bt_bb_wrapper">
+      <section id="bt_bb_sectionFooter"
+               class="bt_bb_section bt_bb_top_spacing_large bt_bb_bottom_spacing_medium bt_bb_layout_boxed_1200 bt_bb_vertical_align_top">
+        <div class="bt_bb_port">
+          <div class="bt_bb_cell">
+            <div class="bt_bb_cell_inner">
+              <div class="bt_bb_row_wrapper">
+                <div class="bt_bb_row">
+                  <div
+                    class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal"
+                    data-width="4">
+                    <div class="bt_bb_column_content">
+                      <div class="bt_bb_column_content_inner">
+                        <header
+                          class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_5 bt_bb_dash_none bt_bb_size_small bt_bb_subheadline bt_bb_align_inherit">
+                          <h3><span
+                            class="bt_bb_headline_content"><span>CONHEÇA O <strong>GDG BASQUETEBOL</strong></span></span>
+                          </h3>
+                          <div class="bt_bb_headline_subheadline">Associação de Utilidade Pública sem fins lucrativos.
+                          </div>
+                        </header>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
+                        <div
+                          class="bt_bb_icon bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_normal bt_bb_shape_circle bt_bb_align_inherit">
+                          <a href="https://www.facebook.com/gdgbasquetebol/" target="_blank"
+                             data-ico-fontawesome="&#xf09a;"
+                             class="bt_bb_icon_holder"></a></div>
+                        <div
+                          class="bt_bb_icon bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_normal bt_bb_shape_circle bt_bb_align_inherit">
+                          <a href="https://www.instagram.com/gafanhabasquetebol/" target="_blank"
+                             data-ico-fontawesome="&#xf16d;" class="bt_bb_icon_holder"></a>
+                        </div>
+                        <div
+                          class="bt_bb_icon bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_normal bt_bb_shape_circle bt_bb_align_inherit">
+                          <a href="https://twitter.com/gdgbasquetebol" target="_blank" data-ico-fontawesome="&#xf099;"
+                             class="bt_bb_icon_holder"></a></div>
+                        <div
+                          class="bt_bb_icon bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_normal bt_bb_shape_circle bt_bb_align_inherit">
+                          <a href="tel: +351 234 191 143" target="_blank"
+                             data-ico-fontawesome="&#xf095;" class="bt_bb_icon_holder"></a></div>
+                        <div
+                          class="bt_bb_icon bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_normal bt_bb_shape_circle bt_bb_align_inherit">
+                          <a href="mailto: gafanhabasquetebol@gmail.com" target="_blank"
+                             data-ico-fontawesome="&#xf0e0;" class="bt_bb_icon_holder"></a></div>
+                        <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal"
+                    data-width="4">
+                    <div class="bt_bb_column_content">
+                      <div class="bt_bb_column_content_inner">
+                        <div
+                          class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_middle">
+                          <span><img
+                            src="img/layout/footer-removebg-preview.png"
+                            title="logo_footer"
+                            alt="LOGO"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="btLightSkin"></div>
+  </div><!-- /btSiteFooter -->
+
+</div><!-- /pageWrap -->
+
+<script type='text/javascript'
+        src='http://oxigeno.bold-themes.com/basketball/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.9'></script>
+<script type='text/javascript'
+        src='http://oxigeno.bold-themes.com/basketball/wp-content/themes/oxigeno/framework/js/header.misc.js?ver=5.4.2'></script>
+<script type='text/javascript'
+        src='http://oxigeno.bold-themes.com/basketball/wp-content/themes/oxigeno/framework/js/misc.js?ver=5.4.2'></script>
+<script type='text/javascript'
+        src='http://oxigeno.bold-themes.com/basketball/wp-content/themes/oxigeno/framework/js/framework_misc.js?ver=5.4.2'></script>
+<script type='text/javascript'
+        src='http://oxigeno.bold-themes.com/basketball/wp-content/plugins/bold-page-builder/content_elements/bt_bb_section/bt_bb_elements.js?ver=5.4.2'></script>
+
+</body>
+</html>
