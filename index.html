@@ -10,7 +10,10 @@
   <link rel="apple-touch-icon" sizes="180x180" href="img/layout/logo.png">
   <link rel="icon" type="image/png" sizes="32x32" href="img/layout/logo.png">
   <link rel="icon" type="image/png" sizes="16x16" href="img/layout/logo.png">
+
   <link href="css/main.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 
   <link rel='stylesheet' id='wp-block-library-css'
         href='css/style.min.css'
@@ -1817,20 +1820,27 @@
 <script type='text/javascript'
         src='js/bt_bb_elements.js'></script>
 
-<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+<script src="js/cookieconsent.min.js" data-cfasync="false"></script>
 <script>
   window.cookieconsent.initialise({
-    container: document.getElementById("cookieconsent"),
-    palette:{
-      popup: { background: "#1aa3ff" },
-      button: { background: "#e0e0e0" },
+    "palette": {
+      "popup": {
+        "background": "#004080"
+      },
+      "button": {
+        "background": "#cc5200"
+      }
     },
-    revokable: true,
-    onStatusChange: function(status) {
-      console.log(this.hasConsented() ?
-        'enable cookies' : 'disable cookies');
-    },
-    "theme": "edgeless"
+    "theme": "classic",
+    "position": "top",
+    "static": true,
+    "type": "opt-in",
+    "content": {
+      "message": "Este site armazena dados como cookies para habilitar a funcionalidade necessária, incluindo análises, segmentação e personalização.",
+      "dismiss": "Rejeitar",
+      "allow": "Permitir cookies",
+      "link": "Saber mais"
+    }
   });
 </script>
 </body>
