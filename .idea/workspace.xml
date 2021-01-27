@@ -22,6 +22,7 @@
     <list default="true" id="c7e9f50b-d839-47f0-99c3-405f78e1f1b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +78,7 @@
       <workItem from="1609156161529" duration="2038000" />
       <workItem from="1611662057397" duration="283000" />
       <workItem from="1611680442595" duration="1508000" />
-      <workItem from="1611736597236" duration="380000" />
+      <workItem from="1611736597236" duration="1672000" />
     </task>
     <task id="LOCAL-00001" summary="-remove buttons">
       <created>1604159325651</created>
