@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c7e9f50b-d839-47f0-99c3-405f78e1f1b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/patrocinadores/JLL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parceiros.html" beforeDir="false" afterPath="$PROJECT_DIR$/parceiros.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +57,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Ana Rita\Desktop\localhost\gdg2\Ana1919.github.io\img\marcos" />
       <recent name="C:\Users\Ana Rita\Desktop\localhost\gdg2\Ana1919.github.io\img\patrocinadores" />
+      <recent name="C:\Users\Ana Rita\Desktop\localhost\gdg2\Ana1919.github.io\img\marcos" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -84,7 +82,7 @@
       <workItem from="1612193629151" duration="3228000" />
       <workItem from="1612214859712" duration="1572000" />
       <workItem from="1612264114154" duration="863000" />
-      <workItem from="1614211462888" duration="1912000" />
+      <workItem from="1614211462888" duration="3101000" />
     </task>
     <task id="LOCAL-00001" summary="-remove buttons">
       <created>1604159325651</created>
