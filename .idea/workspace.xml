@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,8 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7e9f50b-d839-47f0-99c3-405f78e1f1b5" name="Default Changelist" comment="">
+    <list default="true" id="c7e9f50b-d839-47f0-99c3-405f78e1f1b5" name="Default Changelist" comment="+update marcos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/treinadores/josepires.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/treinadores/tiagobastos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treinadores.html" beforeDir="false" afterPath="$PROJECT_DIR$/treinadores.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +98,7 @@
       <workItem from="1615805285320" duration="220000" />
       <workItem from="1616028195339" duration="1985000" />
       <workItem from="1618300172060" duration="2543000" />
+      <workItem from="1639583499957" duration="972000" />
     </task>
     <task id="LOCAL-00001" summary="-remove buttons">
       <created>1604159325651</created>
