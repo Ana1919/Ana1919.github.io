@@ -1,0 +1,146 @@
+select, input {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, h7, h8 {
+  font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+}
+
+blockquote {
+  font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+}
+
+
+.mainHeader {
+  font-family: "Montserrat";
+}
+
+.mainHeader a:hover {
+  color: #cc5200;
+}
+
+.menuPort {
+  font-family: "Montserrat";
+}
+
+.menuPort nav ul li a:hover {
+  color: #cc5200;
+}
+
+.menuPort nav > ul > li > a {
+  line-height: 80px;
+}
+
+.btTextLogo {
+  font-family: "Montserrat";
+  line-height: 80px;
+}
+
+.btLogoArea .logo img {
+  height: 80px;
+}
+
+.btPagination {
+  font-family: "Nunito Sans";
+}
+
+.btPagination .paging a:hover {
+  color: #004080;
+}
+
+.btPagination .paging a:hover:after {
+  border-color: #004080;
+  color: #004080;
+}
+
+.btPrevNextNav .btPrevNext .btPrevNextItem .btPrevNextTitle {
+  font-family: "Nunito Sans";
+}
+
+.btPrevNextNav .btPrevNext .btPrevNextItem .btPrevNextDir {
+  font-family: "Montserrat";
+}
+
+.btPrevNextNav .btPrevNext:hover .btPrevNextTitle {
+  color: #004080;
+}
+
+.bt_bb_headline .bt_bb_headline_superheadline {
+  font-family: "Montserrat";
+}
+
+.bt_bb_headline.bt_bb_subheadline .bt_bb_headline_subheadline {
+  font-family: "Libre Baskerville";
+}
+
+.bt_bb_dash_top.bt_bb_headline .bt_bb_headline_content:before {
+  color: #004080;
+}
+
+
+.bt_bb_service .bt_bb_service_content .bt_bb_service_content_title {
+  font-family: Nunito Sans;
+}
+
+.bt_bb_button {
+  font-family: Nunito Sans;
+}
+
+.bt_bb_custom_menu div ul a:hover {
+  color: #cc5200;
+}
+
+@font-face {
+  font-family: "Award";
+  src: url("../basketball/wp-content/themes/oxigeno/fonts/Award/Award.woff") format("woff"), url("../basketball/wp-content/themes/oxigeno/fonts/Award/Award.ttf") format("truetype");
+}
+
+*[data-ico-award]:before {
+  font-family: Award;
+  content: attr(data-ico-award);
+}
+
+@font-face {
+  font-family: "Basketball";
+  src: url("../basketball/wp-content/themes/oxigeno/fonts/Basketball/Basketball.woff") format("woff"), url("../basketball/wp-content/themes/oxigeno/fonts/Basketball/Basketball.ttf") format("truetype");
+}
+
+*[data-ico-basketball]:before {
+  font-family: Basketball;
+  content: attr(data-ico-basketball);
+}
+
+@font-face {
+  font-family: "Essential";
+  src: url("../basketball/wp-content/themes/oxigeno/fonts/Essential/Essential.woff") format("woff"), url("./basketball/wp-content/themes/oxigeno/fonts/Essential/Essential.ttf") format("truetype");
+}
+
+*[data-ico-essential]:before {
+  font-family: Essential;
+  content: attr(data-ico-essential);
+}
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url("../basketball/wp-content/themes/oxigeno/fonts/FontAwesome/FontAwesome.woff") format("woff"), url("fonts/fontawesome-free-5.14.0-web/webfonts/fa-brands-400.ttf") format("truetype");
+}
+
+*[data-ico-fontawesome]:before {
+  font-family: FontAwesome;
+  content: attr(data-ico-fontawesome);
+}
+
+
+@font-face {
+  font-family: "Sport";
+  src: url("../basketball/wp-content/themes/oxigeno/fonts/Sport/Sport.woff") format("woff"), url("http://oxigeno.bold-themes.com/basketball/wp-content/themes/oxigeno/fonts/Sport/Sport.ttf") format("truetype");
+}
+
+*[data-ico-sport]:before {
+  font-family: Sport;
+  content: attr(data-ico-sport);
+}
