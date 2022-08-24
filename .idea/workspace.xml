@@ -22,7 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7e9f50b-d839-47f0-99c3-405f78e1f1b5" name="Default Changelist" comment="+update marcos" />
+    <list default="true" id="c7e9f50b-d839-47f0-99c3-405f78e1f1b5" name="Default Changelist" comment="+update marcos">
+      <change beforePath="$PROJECT_DIR$/comunicados.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunicados.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,17 +53,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ana Rita\Desktop\localhost\gdg2\Ana1919.github.io\img\patrocinadores" />
@@ -96,6 +98,7 @@
       <workItem from="1639583499957" duration="972000" />
       <workItem from="1648566176639" duration="1942000" />
       <workItem from="1661293076369" duration="2201000" />
+      <workItem from="1661346026465" duration="306000" />
     </task>
     <task id="LOCAL-00001" summary="-remove buttons">
       <created>1604159325651</created>
