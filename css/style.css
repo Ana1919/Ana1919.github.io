@@ -11400,7 +11400,7 @@ a:hover {
 }
 
 .btMenuHorizontal .menuPort ul ul li a:hover {
-  color: #004080;
+  color: #cc5200;
 }
 
 body.btMenuHorizontal .subToggler {
@@ -11408,8 +11408,8 @@ body.btMenuHorizontal .subToggler {
 }
 
 .btMenuHorizontal .menuPort > nav > ul > li > ul li a:hover {
-  -webkit-box-shadow: inset 5px 0 0 0 #004080;
-  box-shadow: inset 5px 0 0 0 #004080;
+  -webkit-box-shadow: inset 5px 0 0 0 #cc5200;
+  box-shadow: inset 5px 0 0 0 #cc5200;
 }
 
 .btMenuHorizontal .topBarInMenu {
@@ -11481,7 +11481,7 @@ body.btMenuHorizontal .subToggler {
 }
 
 .btMenuVertical .menuPort nav:not(.rightNav):before, .btMenuVertical .menuPort nav:not(.leftNav):after {
-  background: #004080;
+  background: #cc5200;
 }
 
 .btDarkSkin .btSiteFooterWidgets, .btLightSkin .btDarkSkin .btSiteFooterWidgets, .btDarkSkin.btLightSkin .btDarkSkin .btSiteFooterWidgets {
@@ -11528,7 +11528,7 @@ body:not(.btNoDashInSidebar) .btBox > h4:after, body:not(.btNoDashInSidebar) .bt
 }
 
 .topTools .btIconWidget:hover, .topBarInMenu .btIconWidget:hover {
-  color: #004080;
+  color: #cc5200;
 }
 
 .btSidebar .btIconWidget:hover .btIconWidgetText, footer .btIconWidget:hover .btIconWidgetText, .topBarInLogoArea .btIconWidget:hover .btIconWidgetText {
