@@ -10,6 +10,8 @@
   <link rel="apple-touch-icon" sizes="180x180" href="img/layout/logo.png">
   <link rel="icon" type="image/png" sizes="32x32" href="img/layout/logo.png">
   <link rel="icon" type="image/png" sizes="16x16" href="img/layout/logo.png">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
   <link href="css/main.css" rel="stylesheet">
 
   <link rel='stylesheet' id='wp-block-library-css'
@@ -184,6 +186,9 @@
                   <header class="bt_bb_headline bt_bb_size_large bt_bb_superheadline bt_bb_subheadline"><h1><span
                     class="bt_bb_headline_superheadline"></span><span
                     class="bt_bb_headline_content"><span>Seniores Masculinos</span></span></h1>
+
+                    <div id="teste"></div>
+
                     <div class="bt_bb_headline_subheadline">A equipa de
                       Seniores Masculinos da Época 21/22 conta com 17 jogadores, conheça-os aqui.
                     </div>
@@ -908,6 +913,20 @@
 <script src='js/misc.js'></script>
 <script src='js/framework_misc.js'></script>
 <script src='js/bt_bb_elements.js'></script>
+<script>
+  $(document).ready(function (){
+    $.ajax({
+      url: 'teste.json',
+      dataType: 'json',
+      success: function (res) {
+        $(res).each(function (index, item){
+          var type = res[index].type;
 
+          $('#teste').append(res[index].id);
+        })
+      }
+    })
+  })
+</script>
 </body>
 </html>
