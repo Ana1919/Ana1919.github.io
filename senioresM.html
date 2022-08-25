@@ -11,7 +11,6 @@
   <link rel="icon" type="image/png" sizes="32x32" href="img/layout/logo.png">
   <link rel="icon" type="image/png" sizes="16x16" href="img/layout/logo.png">
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-
   <link href="css/main.css" rel="stylesheet">
 
   <link rel='stylesheet' id='wp-block-library-css'
@@ -186,9 +185,6 @@
                   <header class="bt_bb_headline bt_bb_size_large bt_bb_superheadline bt_bb_subheadline"><h1><span
                     class="bt_bb_headline_superheadline"></span><span
                     class="bt_bb_headline_content"><span>Seniores Masculinos</span></span></h1>
-
-                    <div id="teste"></div>
-
                     <div class="bt_bb_headline_subheadline">A equipa de
                       Seniores Masculinos da Época 21/22 conta com 17 jogadores, conheça-os aqui.
                     </div>
@@ -831,79 +827,8 @@
   </div>
 </div><!-- /contentWrap -->
 
-<div class="btSiteFooter" style="margin-top: 5%">
+<div id="footer" class="btSiteFooter" style="margin-top: 5%">
 
-  <div class="bt_bb_wrapper">
-    <section id="bt_bb_section5f1b0f4353863"
-             class="bt_bb_section bt_bb_top_spacing_large bt_bb_bottom_spacing_medium bt_bb_layout_boxed_1200 bt_bb_vertical_align_top">
-      <div class="bt_bb_port">
-        <div class="bt_bb_cell">
-          <div class="bt_bb_cell_inner">
-            <div class="bt_bb_row_wrapper">
-              <div class="bt_bb_row">
-                <div
-                  class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal"
-                  data-width="4">
-                  <div class="bt_bb_column_content">
-                    <div class="bt_bb_column_content_inner">
-                      <header
-                        class="bt_bb_headline bt_bb_font_weight_normal bt_bb_color_scheme_5 bt_bb_dash_none bt_bb_size_small bt_bb_subheadline bt_bb_align_inherit">
-                        <h3><span
-                          class="bt_bb_headline_content"><span>CONHEÇA O <strong>GDG BASQUETEBOL</strong></span></span>
-                        </h3>
-                        <div class="bt_bb_headline_subheadline">Associação de Utilidade Pública sem fins lucrativos.
-                        </div>
-                      </header>
-                      <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
-                      <div
-                        class="bt_bb_icon bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_normal bt_bb_shape_circle bt_bb_align_inherit">
-                        <a href="https://www.facebook.com/gdgbasquetebol/" target="_blank"
-                           data-ico-fontawesome="&#xf09a;"
-                           class="bt_bb_icon_holder"></a></div>
-                      <div
-                        class="bt_bb_icon bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_normal bt_bb_shape_circle bt_bb_align_inherit">
-                        <a href="https://www.instagram.com/gafanhabasquetebol/" target="_blank"
-                           data-ico-fontawesome="&#xf16d;" class="bt_bb_icon_holder"></a>
-                      </div>
-                      <div
-                        class="bt_bb_icon bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_normal bt_bb_shape_circle bt_bb_align_inherit">
-                        <a href="https://twitter.com/gdgbasquetebol" target="_blank" data-ico-fontawesome="&#xf099;"
-                           class="bt_bb_icon_holder"></a></div>
-                      <div
-                        class="bt_bb_icon bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_normal bt_bb_shape_circle bt_bb_align_inherit">
-                        <a href="tel:+351234191143" target="_blank"
-                           data-ico-fontawesome="&#xf095;" class="bt_bb_icon_holder"></a></div>
-                      <div
-                        class="bt_bb_icon bt_bb_color_scheme_6 bt_bb_style_filled bt_bb_size_normal bt_bb_shape_circle bt_bb_align_inherit">
-                        <a href="mailto:gafanhabasquetebol@gmail.com" target="_blank"
-                           data-ico-fontawesome="&#xf0e0;" class="bt_bb_icon_holder"></a></div>
-                      <div class="bt_bb_separator bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal"
-                  data-width="4">
-                  <div class="bt_bb_column_content">
-                    <div class="bt_bb_column_content_inner">
-                      <div
-                        class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_middle">
-                          <span><img
-                            src="img/layout/footer-removebg-preview.png"
-                            title="logo_footer"
-                            alt="LOGO"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-  <div class="btLightSkin"></div>
 </div><!-- /btSiteFooter -->
 
 </div><!-- /pageWrap -->
@@ -914,19 +839,7 @@
 <script src='js/framework_misc.js'></script>
 <script src='js/bt_bb_elements.js'></script>
 <script>
-  $(document).ready(function (){
-    $.ajax({
-      url: 'teste.json',
-      dataType: 'json',
-      success: function (res) {
-        $(res).each(function (index, item){
-          var type = res[index].type;
-
-          $('#teste').append(res[index].id);
-        })
-      }
-    })
-  })
+  $('#footer').load('layout/footer.html');
 </script>
 </body>
 </html>

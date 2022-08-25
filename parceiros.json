@@ -1,0 +1,210 @@
+[
+  {
+    "id": 1,
+    "type": 1,
+    "src": "img/patrocinadores/aires.jpg",
+    "href": "https://www.facebook.com/frigorificosdaermida",
+    "title": "Aires",
+    "alt": "Aires"
+  },
+  {
+    "id": 2,
+    "type": 1,
+    "src": "img/patrocinadores/esporgel.jpg",
+    "href": "",
+    "title": "Esporgel",
+    "alt": "Esporgel"
+  },
+  {
+    "id": 3,
+    "type": 1,
+    "src": "img/patrocinadores/NVATecLogoOriginal.png",
+    "href": "https://www.nvatec.com/",
+    "title": "NVA Technology",
+    "alt": "NVA Technology"
+  },
+  {
+    "id": 4,
+    "type": 1,
+    "src": "img/patrocinadores/opticabranco.png",
+    "href": "https://www.facebook.com/opticabrancooficial/",
+    "title": "Óptica Branco",
+    "alt": "Óptica Branco"
+  },
+  {
+    "id": 5,
+    "type": 1,
+    "src": "img/patrocinadores/reiseana.png",
+    "href": "https://www.reiseana.pt/",
+    "title": "Reis & Ana",
+    "alt": "Reis & Ana"
+  },
+  {
+    "id": 6,
+    "type": 1,
+    "src": "img/patrocinadores/limpaveiro.jpg",
+    "href": "https://pt-pt.facebook.com/Limpaveiro",
+    "title": "Limpaveiro",
+    "alt": "Limpaveiro"
+  },
+  {
+    "id": 7,
+    "type": 2,
+    "src": "img/patrocinadores/CMI.png",
+    "href": "https://www.cm-ilhavo.pt/",
+    "title": "Câmara Municipal de Ílhavo",
+    "alt": "CM Ílhavo"
+  },
+  {
+    "id": 8,
+    "type": 2,
+    "src": "img/patrocinadores/JFGN.gif",
+    "href": "https://jf-gafanhadanazare.pt/",
+    "title": "Junta de Freguesia da Gafanha da Nazaré",
+    "alt": "JFGN"
+  },
+  {
+    "id": 9,
+    "type": 3,
+    "src": "img/patrocinadores/Civilria.png",
+    "href": "https://www.civilria.pt",
+    "title": "Civilria",
+    "alt": "Civilria"
+  },
+  {
+    "id": 10,
+    "type": 3,
+    "src": "img/patrocinadores/jvf2.jpg",
+    "href": "https://www.facebook.com/Júlio-Vilelo-Funerárias-146547259509442",
+    "title": "Júlio Vilelo Funerárias",
+    "alt": "Júlio Vilelo Funerárias"
+  },
+  {
+    "id": 11,
+    "type": 3,
+    "src": "img/patrocinadores/Amorim%20Soluções.png",
+    "href": "https://www.solucoesaveiro.com",
+    "title": "Imobiliária Soluções Aveiro",
+    "alt": "Imobiliária Soluções Aveiro"
+  },
+  {
+    "id": 12,
+    "type": 3,
+    "src": "img/patrocinadores/Biscate.png",
+    "href": "https://www.facebook.com/biscateservicos",
+    "title": "Biscate",
+    "alt": "Biscate"
+  },
+  {
+    "id": 13,
+    "type": 3,
+    "src": "img/patrocinadores/Agência%20Funerária%20da%20Gafanha.png",
+    "href": "https://www.facebook.com/afggafanha",
+    "title": "Agência Funerária da Gafanha",
+    "alt": "Agência Funerária da Gafanha"
+  },
+  {
+    "id": 14,
+    "type": 3,
+    "src": "img/patrocinadores/Intermarché_GafNaz.png",
+  "href": "https://www.facebook.com/intermarche.gafanha.da.nazare",
+  "title": "Intermarché GN",
+  "alt": "Intermarché GN"
+  },
+  {
+    "id": 15,
+    "type": 3,
+    "src": "img/patrocinadores/Café%20Luz%20do%20Sol.jpg",
+    "href": "https://www.facebook.com/cafeluzdosol",
+    "title": "Café Luz do Sol",
+    "alt": "Café Luz do Sol"
+  },
+  {
+    "id": 16,
+    "type": 3,
+    "src": "img/patrocinadores/Marisal.png",
+    "href": "https://www.facebook.com/Restaurante-Marisal-514755711996873",
+    "title": "Marisal",
+    "alt": "Marisal"
+  },
+  {
+    "id": 17,
+    "type": 3,
+    "src": "img/patrocinadores/Minipreço%20Gaf%20Encar.jpg",
+    "href": "https://www.facebook.com/Mini-Preço-Gafanha-da-Encarnação-467112276725155",
+    "title": "Minipreço Gaf. Encarnação",
+    "alt": "Minipreço Gaf. Encarnação"
+  },
+  {
+    "id": 18,
+    "type": 3,
+    "src": "img/patrocinadores/Moveis%20Margaça.png",
+    "href": "https://www.facebook.com/moveismargacagafanha",
+    "title": "Móveis Margaça",
+    "alt": "Móveis Margaça"
+  },
+  {
+    "id": 19,
+    "type": 3,
+    "src": "img/patrocinadores/nuno%20cardoso.png",
+    "href": "https://www.ncmpl.pt",
+    "title": "Nuno Cardoso, Mafalda Pires de Lima & Associados - Agentes de Execução",
+    "alt": "NCMPL"
+  },
+  {
+    "id": 20,
+    "type": 3,
+    "src": "img/patrocinadores/Optica%20Gafanhense.jpg",
+    "href": "https://www.facebook.com/optica.gafanhense",
+    "title": "Óptica Gafanhense",
+    "alt": "Óptica Gafanhense"
+  },
+  {
+    "id": 21,
+    "type": 3,
+    "src": "img/patrocinadores/faros.png",
+    "href": "https://www.farosgourmet.pt",
+    "title": "Faros Gourmet",
+    "alt": "Faros Gourmet"
+  },
+  {
+    "id": 22,
+    "type": 3,
+    "src": "img/patrocinadores/Salpetra.png",
+    "href": "https://www.salpetra.pt",
+    "title": "Salpetra",
+    "alt": "Salpetra"
+  },
+  {
+    "id": 23,
+    "type": 3,
+    "src": "img/patrocinadores/Talhos%20PAULO%20REAL.png",
+    "href": "https://www.facebook.com/talhospauloreal",
+    "title": "Talhos Paulo Real",
+    "alt": "Talhos Paulo Real"
+  },
+  {
+    "id": 24,
+    "type": 3,
+    "src": "img/patrocinadores/JJLinvestimentos.png",
+    "href": "https://jloureiro.pt/",
+    "title": "João Júlio Loureiro Investimentos",
+    "alt": "João Júlio Loureiro Investimentos"
+  },
+  {
+    "id": 25,
+    "type": 3,
+    "src": "img/patrocinadores/JSP.jpg",
+    "href": "https://www.joaquimsoares.pt/pt_pt/index",
+    "title": "Joaquim Soares & Paulo, Lda",
+    "alt": "Joaquim Soares & Paulo, Lda"
+  },
+  {
+    "id": 26,
+    "type": 3,
+    "src": "img/patrocinadores/mario-corticeiro.png",
+    "href": "http://www.mariocorticeiro.pt/",
+    "title": "Mário Corticeiro - Investimentos Mobiliários",
+    "alt": "Mário Corticeiro - Investimentos Mobiliários"
+  }
+]
