@@ -22,15 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7e9f50b-d839-47f0-99c3-405f78e1f1b5" name="Default Changelist" comment="+update marcos">
-      <change afterPath="$PROJECT_DIR$/parceiros.json" afterDir="false" />
+    <list default="true" id="c7e9f50b-d839-47f0-99c3-405f78e1f1b5" name="Default Changelist" comment="+update escaloes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comunicados.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunicados.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parceiros.html" beforeDir="false" afterPath="$PROJECT_DIR$/parceiros.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/senioresM.html" beforeDir="false" afterPath="$PROJECT_DIR$/senioresM.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teste.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/treinadores.html" beforeDir="false" afterPath="$PROJECT_DIR$/treinadores.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +76,7 @@
       <recent name="C:\Users\Ana Rita\Desktop\localhost\gdg2\Ana1919.github.io\img\marcos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ana Rita\Desktop\localhost\gdg2\Ana1919.github.io\data" />
       <recent name="C:\Users\Ana Rita\Desktop\localhost\gdg2\Ana1919.github.io\layout" />
     </key>
   </component>
@@ -114,7 +109,8 @@
       <workItem from="1648566176639" duration="1942000" />
       <workItem from="1661293076369" duration="2201000" />
       <workItem from="1661346026465" duration="6649000" />
-      <workItem from="1661413267660" duration="15235000" />
+      <workItem from="1661413267660" duration="22462000" />
+      <workItem from="1661503672545" duration="1904000" />
     </task>
     <task id="LOCAL-00001" summary="-remove buttons">
       <created>1604159325651</created>
@@ -130,7 +126,35 @@
       <option name="project" value="LOCAL" />
       <updated>1612194938874</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="+reuse footer">
+      <created>1661438396649</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661438396649</updated>
+    </task>
+    <task id="LOCAL-00004" summary="+add json escaloes + marcos + parceiros to index page">
+      <created>1661504089273</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661504089273</updated>
+    </task>
+    <task id="LOCAL-00005" summary="+update escaloes">
+      <created>1661505256681</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661505256681</updated>
+    </task>
+    <task id="LOCAL-00006" summary="+update escaloes">
+      <created>1661505458321</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661505458321</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +174,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="-remove buttons" />
     <MESSAGE value="+update marcos" />
-    <option name="LAST_COMMIT_MESSAGE" value="+update marcos" />
+    <MESSAGE value="+reuse footer" />
+    <MESSAGE value="+add json escaloes + marcos + parceiros to index page" />
+    <MESSAGE value="+update escaloes" />
+    <option name="LAST_COMMIT_MESSAGE" value="+update escaloes" />
   </component>
 </project>
