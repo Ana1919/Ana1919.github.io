@@ -810,7 +810,7 @@
       url: 'data/parceiros.json',
       dataType: 'json',
       success: function (res) {
-        $(res).each(function (index, item) {
+        $(res).each(function (index) {
           var type = res[index].type;
           var src = res[index].src;
           var alt = res[index].alt;
@@ -835,7 +835,7 @@
       url: 'data/marcos.json',
       dataType: 'json',
       success: function (res) {
-        $(res).each(function (index, item) {
+        $(res).each(function (index) {
           var description = res[index].description;
           var src = res[index].src;
           var year = res[index].year;
@@ -861,7 +861,7 @@
       url: 'data/escaloes.json',
       dataType: 'json',
       success: function (res) {
-        $(res).each(function (index, item) {
+        $(res).each(function (index) {
           var type = res[index].type;
 
           for (var option = 0; option < res[index].escaloes.length; option++) {
@@ -869,6 +869,7 @@
             var description = res[index].escaloes[option].description;
             var href = res[index].escaloes[option].href;
             var alt = res[index].escaloes[option].alt;
+            var icon = res[index].escaloes[option].icon;
             var dataWidth = 3;
             var content = '<div\n' +
               'class="bt_bb_column col-md-3 col-sm-6 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_text_indent"\n' +
@@ -883,11 +884,11 @@
               'target="_blank"><img\n' +
               'src="'+ src +'"\n' +
               'alt="'+ alt +'"></a>\n' +
-              '</span>\n' +
+              '</span>\n' +3
               '</div>\n' +
               '<div\n' +
               'class="bt_bb_icon btMoveIconUp bt_bb_color_scheme_6 bt_bb_style_filled-border bt_bb_size_xlarge bt_bb_shape_circle bt_bb_align_inherit bt_bb_style_filled bt_bb_style_border">\n' +
-              '<a data-ico-basketball="&#xf110;" class="bt_bb_icon_holder"></a></div>\n' +
+              '<a data-ico-basketball="'+ icon +'" class="bt_bb_icon_holder"></a></div>\n' +
               '<div class="bt_bb_separator bt_bb_bottom_spacing_small bt_bb_border_style_none"></div>\n' +
               '<header\n' +
               'class="bt_bb_headline bt_bb_font_weight_bolder bt_bb_color_scheme_9 bt_bb_dash_none bt_bb_size_small bt_bb_align_inherit">\n' +
