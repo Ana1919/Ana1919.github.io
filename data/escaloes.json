@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "type": "FEMININOS",
+    "escaloes": [
+      {
+        "id": 1,
+        "description": "SENIORES",
+        "href": "img/escaloes/Equipa%20SF%2020.21.jpg",
+        "src": "img/escaloes/Equipa%20SF%2020.21.jpg",
+        "alt": "Fem-Seniores"
+      },
+      {
+        "id": 2,
+        "description": "SUB-19",
+        "href": "img/escaloes/Equipa%20SUB19F%2020.21.jpg",
+        "src": "img/escaloes/Equipa%20SUB19F%2020.21.jpg",
+        "alt": "Fem-Sub19"
+      },
+      {
+        "id": 3,
+        "description": "SUB-16",
+        "href": "img/layout/Basquetebol%20Gafanha%20recortado.png",
+        "src": "img/layout/Basquetebol%20Gafanha%20recortado.png",
+        "alt": "Fem-Sub16"
+      },
+      {
+        "id": 4,
+        "description": "SUB-14",
+        "href": "img/layout/Basquetebol%20Gafanha%20recortado.png",
+        "src": "img/layout/Basquetebol%20Gafanha%20recortado.png",
+        "alt": "Fem-Sub14"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "MASCULINOS",
+    "escaloes": [
+      {
+        "id": 1,
+        "description": "SENIORES",
+        "href": "img/escaloes/Equipa%20SM%2021.22.jpg",
+        "src": "img/escaloes/Equipa%20SM%2021.22.jpg",
+        "alt": "Masc-Seniores"
+      },
+      {
+        "id": 2,
+        "description": "SUB-18",
+        "href": "img/escaloes/Equipa%20SUB18M%2020.21.JPG",
+        "src": "img/escaloes/Equipa%20SUB18M%2020.21.JPG",
+        "alt": "Masc-Sub18"
+      },
+      {
+        "id": 3,
+        "description": "SUB-16",
+        "href": "img/escaloes/Equipa%20SUB16M%2020.21.JPG",
+        "src": "img/escaloes/Equipa%20SUB16M%2020.21.JPG",
+        "alt": "Masc-Sub16"
+      },
+      {
+        "id": 4,
+        "description": "SUB-14",
+        "href": "img/escaloes/Equipa%20SUB14M%2020.21.JPG",
+        "src": "img/escaloes/Equipa%20SUB14M%2020.21.JPG",
+        "alt": "Masc-Sub14"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "MISTOS",
+    "escaloes": [
+      {
+        "id": 1,
+        "description": "SUB-12",
+        "href": "img/escaloes/Equipa%20SUB12%2020.21.jpg",
+        "src": "img/escaloes/Equipa%20SUB12%2020.21.jpg",
+        "alt": "Mistos-Sub12"
+      },
+      {
+        "id": 2,
+        "description": "SUB-8 e SUB-10",
+        "href": "img/escaloes/Equipa%20SUB8-SUB10%2020.21.jpg",
+        "src": "img/escaloes/Equipa%20SUB8-SUB10%2020.21.jpg",
+        "alt": "Mistos-Sub8-Sub10"
+      },
+      {
+        "id": 3,
+        "description": "BABYS",
+        "href": "img/escaloes/Equipa%20BABYS%2020.21.JPG",
+        "src": "img/escaloes/Equipa%20BABYS%2020.21.JPG",
+        "alt": "Mistos-Babys"
+      }
+    ]
+  }
+]

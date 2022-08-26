@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "src": "img/layout/gdg.png",
+    "year": "1957",
+    "style": "width: 65%; margin-left: 40px",
+    "alt": "logo grupo desportivo da gafanha",
+    "description": "Em 1957, foi fundado o Grupo Desportivo do Gafanha, na cidade da Gafanha da Nazaré - Ílhavo"
+  },
+  {
+    "id": 2,
+    "src": "img/layout/logo.png",
+    "year": "1989/1990",
+    "style": "width: 70%;",
+    "alt": "1989/1990",
+    "description": "Criação da Secção de Basquetebol - Época 1989/1990"
+  },
+  {
+    "id": 3,
+    "src": "img/marcos/idp.jpg",
+    "year": "2002",
+    "style": "width: 95%;",
+    "alt": "IDP",
+    "description": "Clube desportivo declarado em 2002 Associação de Utilidade Pública pelo Instituto do Desporto de Portugal"
+  },
+  {
+    "id": 4,
+    "src": "http://oxigeno.bold-themes.com/basketball/wp-content/uploads/sites/6/2017/10/post_10-640x427.jpg",
+    "year": "2003/2004",
+    "style": "",
+    "alt": "2003/2004",
+    "description": "Campeão Nacional de Sub-16 Femininas na Época 2003/2004"
+  },
+  {
+    "id": 5,
+    "src": "img/marcos/fpb.jpg",
+    "year": "2005-2020",
+    "style": "width: 70%; margin-left: 40px",
+    "alt": "FPB",
+    "description": "Certificado de Qualidade como Escola Portuguesa de Minibasquete desde 2005"
+  },
+  {
+    "id": 6,
+    "src": "img/marcos/Vicecampeas%20Nacionais%202009.2010.jpg",
+    "year": "2009/2010",
+    "style": "",
+    "alt": "2009-10-Sub19F-Vice",
+    "description": "Vice-campeão Nacional de Sub-19 Femininas na Época 2009/2010"
+  },
+  {
+    "id": 7,
+    "src": "img/TN%20S19F%2012-13.jpg",
+    "year": "2012/2013",
+    "style": "",
+    "alt": "2012-13-Sub19F-Campeao",
+    "description": "Campeão da Taça Nacional de Sub-19 Femininos na Época 2012/2013"
+  },
+  {
+    "id": 8,
+    "src": "img/marcos/3lugar-2013-14-Sub14F.jpg",
+    "year": "2013/2014",
+    "style": "",
+    "alt": "2013-14-3-Sub14F",
+    "description": "3º Classificado no 1º Campeonato Nacional de Sub-14 Femininos na Época 2013/2014"
+  },
+  {
+    "id": 9,
+    "src": "img/marcos/2015-16-vice-masters.jpeg",
+    "year": "2015/2016",
+    "style": "width: 100%",
+    "alt": "2015-16-Masters",
+    "description": "Vice-campeão na 1ª Liga Nacional de Masters Masculinos na Época 2015/2016"
+  },
+  {
+    "id": 10,
+    "src": "img/marcos/2015-16-campeas.jpeg",
+    "year": "2015/2016",
+    "style": "",
+    "alt": "2015-16-SenFem",
+    "description": "Campeão Nacional de Seniores Femininos da 1ºdivisão na Época 2015/2016"
+  },
+  {
+    "id": 11,
+    "src": "img/vice%20TN%20S16M%2017-18.jpg",
+    "year": "2017/2018",
+    "style": "",
+    "alt": "FPB",
+    "description": "Vice-campeão da Taça Nacional de Sub-16 Masculinos na Época 2017/2018"
+  }
+]
