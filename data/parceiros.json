@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "type": 1,
+    "type": 3,
     "src": "img/patrocinadores/aires.jpg",
     "href": "https://www.facebook.com/frigorificosdaermida",
     "title": "Aires",
@@ -46,22 +46,6 @@
     "href": "https://pt-pt.facebook.com/Limpaveiro",
     "title": "Limpaveiro",
     "alt": "Limpaveiro"
-  },
-  {
-    "id": 7,
-    "type": 2,
-    "src": "img/patrocinadores/CMI.png",
-    "href": "https://www.cm-ilhavo.pt/",
-    "title": "Câmara Municipal de Ílhavo",
-    "alt": "CM Ílhavo"
-  },
-  {
-    "id": 8,
-    "type": 2,
-    "src": "img/patrocinadores/JFGN.gif",
-    "href": "https://jf-gafanhadanazare.pt/",
-    "title": "Junta de Freguesia da Gafanha da Nazaré",
-    "alt": "JFGN"
   },
   {
     "id": 9,
@@ -214,5 +198,37 @@
     "href": "https://www.grupeixe.pt/",
     "title": "Grupeixe",
     "alt": "Grupeixe"
+  },
+  {
+    "id": 7,
+    "type": 2,
+    "src": "",
+    "href": "",
+    "title": "",
+    "alt": ""
+  },
+  {
+    "id": 8,
+    "type": 2,
+    "src": "img/patrocinadores/CMI.png",
+    "href": "https://www.cm-ilhavo.pt/",
+    "title": "Câmara Municipal de Ílhavo",
+    "alt": "CM Ílhavo"
+  },
+  {
+    "id": 28,
+    "type": 2,
+    "src": "img/patrocinadores/JFGN.gif",
+    "href": "https://jf-gafanhadanazare.pt/",
+    "title": "Junta de Freguesia da Gafanha da Nazaré",
+    "alt": "JFGN"
+  },
+  {
+    "id": 29,
+    "type": 2,
+    "src": "",
+    "href": "",
+    "title": "",
+    "alt": ""
   }
 ]
